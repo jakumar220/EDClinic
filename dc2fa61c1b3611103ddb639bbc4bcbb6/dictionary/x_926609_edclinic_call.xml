@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e500765c1b3611103ddb639bbc4bcb13" extends="task" label="Call" max_length="40" name="x_926609_edclinic_call" type="collection"/>
+    <element db_object_id="e500765c1b3611103ddb639bbc4bcb13" extends="task" label="Call" max_length="40" name="x_926609_edclinic_call" type="collection">
+        <element label="Item" max_length="32" name="item" reference="x_926609_edclinic_medical_devices" type="reference"/>
+    </element>
 </database>
