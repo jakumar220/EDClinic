@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline_environment_order">
     <sn_pipeline_pipeline_environment_order action="INSERT_OR_UPDATE">
-        <environment display_value="EDClinic">e7dcb4581b0311103ddb639bbc4bcbe2</environment>
+        <environment/>
         <order>1</order>
         <pipeline display_value="EDClinicPipeline">e82df8581b0311103ddb639bbc4bcb08</pipeline>
         <sys_class_name>sn_pipeline_pipeline_environment_order</sys_class_name>

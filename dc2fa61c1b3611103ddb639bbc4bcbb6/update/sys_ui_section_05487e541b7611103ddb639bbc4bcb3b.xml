@@ -4,97 +4,97 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>c5487e541b7611103ddb639bbc4bcb3c</sys_id>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>4aad85311bc3d1103ddb639bbc4bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>asset_tag</element>
+            <element>model_number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>4d487e541b7611103ddb639bbc4bcb3c</sys_id>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>caad85311bc3d1103ddb639bbc4bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>managed_by_group</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>cd487e541b7611103ddb639bbc4bcb3c</sys_id>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>4ead85311bc3d1103ddb639bbc4bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>category</element>
+            <element>attested</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>41487e541b7611103ddb639bbc4bcb3d</sys_id>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>cead85311bc3d1103ddb639bbc4bcb40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fault_count</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>c1487e541b7611103ddb639bbc4bcb3d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>install_date</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>45487e541b7611103ddb639bbc4bcb3d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>install_status</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-10-23 16:50:27</sys_created_on>
-            <sys_id>c5487e541b7611103ddb639bbc4bcb3d</sys_id>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>42ad85311bc3d1103ddb639bbc4bcb41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-10-23 16:50:27</sys_updated_on>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-09 11:11:15</sys_created_on>
+            <sys_id>c2ad85311bc3d1103ddb639bbc4bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-09 11:11:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_in_call</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-09 11:20:27</sys_created_on>
+            <sys_id>38cf45b11bc3d1103ddb639bbc4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_926609_edclinic_medical_devices" sys_domain="global" view="Default view">05487e541b7611103ddb639bbc4bcb3b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-09 11:20:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

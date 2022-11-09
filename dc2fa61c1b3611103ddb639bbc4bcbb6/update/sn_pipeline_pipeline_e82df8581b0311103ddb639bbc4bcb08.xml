@@ -3,7 +3,7 @@
         <active>true</active>
         <name>EDClinicPipeline</name>
         <pipeline_type display_value="Application Deployment">268f9c0fb73430100290b9708e11a9de</pipeline_type>
-        <source_environment display_value="EDClinic">e7dcb4581b0311103ddb639bbc4bcbe2</source_environment>
+        <source_environment/>
         <sys_class_name>sn_pipeline_pipeline</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-04 18:08:30</sys_created_on>
