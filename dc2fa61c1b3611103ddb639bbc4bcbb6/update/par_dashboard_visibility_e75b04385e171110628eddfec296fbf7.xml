@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="EDClinic Nurses Workspace">ef5b0438eb1711103f1b63c7d41638f2</dashboard>
+        <experience display_value="EDClinic Nurses Workspace">675b0438e9171110a344149daa7f9df3</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:03:24</sys_created_on>
+        <sys_id>e75b04385e171110628eddfec296fbf7</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>par_dashboard_visibility_e75b04385e171110628eddfec296fbf7</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>

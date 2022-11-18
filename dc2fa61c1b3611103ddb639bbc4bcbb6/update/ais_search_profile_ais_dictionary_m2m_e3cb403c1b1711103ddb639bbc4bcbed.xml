@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_926609_edclinic_edclinic_nurses_workspace_search_profile_default_spell_check_dictionary">e7cb403c1b1711103ddb639bbc4bcbea</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="EDClinic Nurses Workspace Search Profile">6b5b0438271711104b2b1dceea4fbef7</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:05:18</sys_created_on>
+        <sys_id>e3cb403c1b1711103ddb639bbc4bcbed</sys_id>
+        <sys_name>x_926609_edclinic_edclinic_nurses_workspace_search_profile_default_spell_check_dictionary.EDClinic Nurses Workspace Search Profile</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_e3cb403c1b1711103ddb639bbc4bcbed</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

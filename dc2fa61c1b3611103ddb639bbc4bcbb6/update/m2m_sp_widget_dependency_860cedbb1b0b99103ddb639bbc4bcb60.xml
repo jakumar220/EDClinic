@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="RetinaIcons">a4fb2d566703220051a062c15685ef67</sp_dependency>
+        <sp_widget display_value="EDClinicVirtual Agent SP Widget">fd0cedbb1b0b99103ddb639bbc4bcb5c</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-15 18:31:48</sys_created_on>
+        <sys_id>860cedbb1b0b99103ddb639bbc4bcb60</sys_id>
+        <sys_name>RetinaIcons.Copy of Virtual Agent Service Portal Wid</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_860cedbb1b0b99103ddb639bbc4bcb60</sys_update_name>
+    </m2m_sp_widget_dependency>
+</record_update>

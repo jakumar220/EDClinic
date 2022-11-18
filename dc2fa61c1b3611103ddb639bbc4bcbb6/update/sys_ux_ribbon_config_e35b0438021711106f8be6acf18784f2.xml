@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>EDClinic Nurses Workspace Ribbon Config</description>
+        <name>EDClinic Nurses Workspace</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:03:25</sys_created_on>
+        <sys_id>e35b0438021711106f8be6acf18784f2</sys_id>
+        <sys_name>EDClinic Nurses Workspace</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_e35b0438021711106f8be6acf18784f2</sys_update_name>
+    </sys_ux_ribbon_config>
+</record_update>

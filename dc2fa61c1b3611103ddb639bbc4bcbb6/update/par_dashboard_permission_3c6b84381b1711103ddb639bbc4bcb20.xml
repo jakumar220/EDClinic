@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="EDClinic Nurses Workspace">ef5b0438eb1711103f1b63c7d41638f2</dashboard>
+        <group/>
+        <role display_value="x_926609_edclinic.admin" name="x_926609_edclinic.admin">a42fa61c1b3611103ddb639bbc4bcbcf</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:03:28</sys_created_on>
+        <sys_id>3c6b84381b1711103ddb639bbc4bcb20</sys_id>
+        <sys_name>ef5b0438eb1711103f1b63c7d41638f2</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>par_dashboard_permission_3c6b84381b1711103ddb639bbc4bcb20</sys_update_name>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

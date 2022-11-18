@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="35c7b2541b7611103ddb639bbc4bcb45" extends="cmdb_ci" label="Medical Devices" max_length="40" name="x_926609_edclinic_medical_devices" type="collection">
+    <element db_object_id="35c7b2541b7611103ddb639bbc4bcb45" extends="cmdb_ci" label="Medical Devices" max_length="40" name="x_926609_edclinic_medical_devices" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="In call" max_length="40" name="u_in_call" read_only="true" reference="x_926609_edclinic_call" type="reference"/>
         <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>

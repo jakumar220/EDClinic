@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:03:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e75b0438091711108715362715d3e1f5</sys_id>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>m2m_app_config_theme_e75b0438091711108715362715d3e1f5</sys_update_name>
+        <theme display_value="Starter Workspace Theme">6f5b0438821711103f8553a0784ebaf3</theme>
+        <ux_app_configuration display_value="EDClinic Nurses Workspace Config">e35b0438f6171110d8c30e8ca00c05fa</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

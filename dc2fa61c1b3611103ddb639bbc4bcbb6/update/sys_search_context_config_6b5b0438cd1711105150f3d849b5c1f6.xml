@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition display_value="">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>EDClinic Nurses Workspace AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="EDClinic Nurses Workspace Search Profile">6b5b0438271711104b2b1dceea4fbef7</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:03:26</sys_created_on>
+        <sys_id>6b5b0438cd1711105150f3d849b5c1f6</sys_id>
+        <sys_name>EDClinic Nurses Workspace AI Search Configuration</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_search_context_config_6b5b0438cd1711105150f3d849b5c1f6</sys_update_name>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b5b0438cd1711105150f3d849b5c1f6"/>
+</record_update>

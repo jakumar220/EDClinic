@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Call Table</name>
+        <retention_policy display_value="Two years">04f129e57792f010be280d892c5a99d9</retention_policy>
+        <source>x_926609_edclinic_call</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:05:18</sys_created_on>
+        <sys_id>2bcb403c1b1711103ddb639bbc4bcbc3</sys_id>
+        <sys_name>Call Table</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>ais_datasource_2bcb403c1b1711103ddb639bbc4bcbc3</sys_update_name>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>
