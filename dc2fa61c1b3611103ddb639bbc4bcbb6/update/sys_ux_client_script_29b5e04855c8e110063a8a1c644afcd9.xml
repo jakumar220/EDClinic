@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">61b5e04838c8e110b08496ba6833b9da</macroponent>
+        <name>set_loading</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({api, event, imports}) {
+	// Called on successful retrieval of search data
+    api.setState('loading', false);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:12</sys_created_on>
+        <sys_id>29b5e04855c8e110063a8a1c644afcd9</sys_id>
+        <sys_name>set_loading</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_client_script_29b5e04855c8e110063a8a1c644afcd9</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

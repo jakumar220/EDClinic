@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Patient Centre Portal Config">51b5e0481bc8e1103ddb639bbc4bcba8</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Login</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>login</route_type>
+        <screen_type display_value="Login">edb5e04837c8e110000a337ef12ab3db</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:12</sys_created_on>
+        <sys_id>a1b5e0487ec8e110c0c2cfd8d7cbc8dc</sys_id>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_app_route_a1b5e0487ec8e110c0c2cfd8d7cbc8dc</sys_update_name>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1b5e0487ec8e110c0c2cfd8d7cbc8dc"/>
+</record_update>

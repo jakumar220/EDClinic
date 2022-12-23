@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">e1b5e04809c8e110512171de932f1fde</macroponent>
+        <name>Launch approve alert </name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+       const modal_payload = {
+            "modalId": "[component-id$='alert_1']",
+            "showModal": true,
+            "displayOptions": null
+        };
+        const OPEN_MODAL = 'MODAL_SELECTED';
+        api.emit(OPEN_MODAL, modal_payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:17</sys_created_on>
+        <sys_id>a1b5e0485fc8e110e3c5376e7aac12da</sys_id>
+        <sys_name>Launch approve alert</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_client_script_a1b5e0485fc8e110e3c5376e7aac12da</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

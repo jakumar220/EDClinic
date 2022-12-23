@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Search Page">61b5e04838c8e110b08496ba6833b9da</macroponent>
+        <name>handle_pagination</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers }) {
+	const props = api.context.props;
+	const fields = {
+		searchContextConfigId: props.searchContextConfigId,
+		searchTerm: props.searchTerm
+	};
+	const token = event.payload.paginationToken;
+	const params = {
+		searchFilters: props.searchFilters,
+		facetFilters: props.facetFilters,
+		disableSpellCheck: props.disableSpellCheck,
+		paginationToken: token
+	};
+	global.window.scrollTo(0, 0);
+	helpers.navigate.to('search', fields, params);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:17</sys_created_on>
+        <sys_id>e1b5e0482bc8e1106972ab01bb5942da</sys_id>
+        <sys_name>handle_pagination</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_client_script_e1b5e0482bc8e1106972ab01bb5942da</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

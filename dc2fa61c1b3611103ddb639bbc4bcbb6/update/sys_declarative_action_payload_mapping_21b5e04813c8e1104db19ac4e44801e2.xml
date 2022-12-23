@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Approve">a5b5e04816c8e110b998c7d23a4074e2</action_payload_definition>
+        <label>Approve Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:13</sys_created_on>
+        <sys_id>21b5e04813c8e1104db19ac4e44801e2</sys_id>
+        <sys_name>Approve Evam</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_21b5e04813c8e1104db19ac4e44801e2</sys_update_name>
+    </sys_declarative_action_payload_mapping>
+</record_update>

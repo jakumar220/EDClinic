@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>e1b6a73f1bf7d1103ddb639bbc4bcbb9</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path>patientcentre</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:14:53</sys_created_on>
+        <sys_id>e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PatientCentre</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_page_registry_e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:14:53</sys_updated_on>
+        <title>PatientCentre</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_ux_page_registry_e9b6a73f1bf7d1103ddb639bbc4bcbbb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>e1b6a73f1bf7d1103ddb639bbc4bcbb9</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app/><path>patientcentre</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 10:14:53</sys_created_on><sys_id>e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PatientCentre</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_ux_page_registry_e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 10:14:53</sys_updated_on><title>PatientCentre</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-177553492</payload_hash>
+        <record_name>PatientCentre</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:14:53</sys_created_on>
+        <sys_id>69b6a77f1bf7d1103ddb639bbc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853e7a7f260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:14:53</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>a1b6a77f15f7d1107626c642ed0c7d24</update_guid>
+        <update_guid_history>a1b6a77f15f7d1107626c642ed0c7d24:-177553492</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:37:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>12a10b3fa0c9488b9c094b0e8448d199</sys_id>
+        <sys_metadata>e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_metadata>
+        <sys_name>PatientCentre</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_e9b6a73f1bf7d1103ddb639bbc4bcbbb</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_e9b6a73f1bf7d1103ddb639bbc4bcbbb">69b6a77f1bf7d1103ddb639bbc4bcb24</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

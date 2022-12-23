@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">69b5e04806c8e11043606cad072ff9e2</declarative_action_assignment>
+        <predicate display_value="My Tasks">e5b5e04878c8e1107e03ef92b6eea5d5</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:13</sys_created_on>
+        <sys_id>6db5e0487ac8e110877e981c41946bd1</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_6db5e0487ac8e110877e981c41946bd1</sys_update_name>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

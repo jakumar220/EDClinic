@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>913daff31b3bd1103ddb639bbc4bcb35,713568081bc8e1103ddb639bbc4bcb94</applets>
+        <card_size/>
+        <column_count/>
+        <custom_height/>
+        <custom_width/>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_custom_size>false</is_custom_size>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles>x_926609_edclinic.admin,x_926609_edclinic.external_user,x_926609_edclinic.internal_user,x_926609_edclinic.it_admin,x_926609_edclinic.it_support,x_926609_edclinic.maintenance,x_926609_edclinic.staff,x_926609_edclinic.staff_admin,x_926609_edclinic.user</required_roles>
+        <row_count/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:43:17</sys_created_on>
+        <sys_id>253daff31b3bd1103ddb639bbc4bcbb9</sys_id>
+        <sys_name>Call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_icon_section_253daff31b3bd1103ddb639bbc4bcbb9</sys_update_name>
+        <table/>
+        <title>Call</title>
+        <visible_condition/>
+        <wide_column_count/>
+    </sys_sg_icon_section>
+</record_update>

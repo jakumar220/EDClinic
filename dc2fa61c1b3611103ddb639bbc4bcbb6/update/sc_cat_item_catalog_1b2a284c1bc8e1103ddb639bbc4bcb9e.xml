@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create A Call">9ab9284c1bc8e1103ddb639bbc4bcb2b</sc_cat_item>
+        <sc_catalog display_value="Patient Catalog">aee9e84c1bc8e1103ddb639bbc4bcb90</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 15:09:39</sys_created_on>
+        <sys_id>1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_id>
+        <sys_name>Patient Catalog.Create a call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>

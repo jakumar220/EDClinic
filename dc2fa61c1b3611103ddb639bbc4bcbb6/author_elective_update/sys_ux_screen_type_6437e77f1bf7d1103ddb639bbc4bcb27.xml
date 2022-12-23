@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>CallCreator</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:16:59</sys_created_on>
+        <sys_id>6437e77f1bf7d1103ddb639bbc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CallCreator</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_screen_type_6437e77f1bf7d1103ddb639bbc4bcb27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:16:59</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=6437e77f1bf7d1103ddb639bbc4bcb27"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_ux_screen_type_6437e77f1bf7d1103ddb639bbc4bcb27</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>CallCreator</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 10:16:59</sys_created_on><sys_id>6437e77f1bf7d1103ddb639bbc4bcb27</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CallCreator</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_ux_screen_type_6437e77f1bf7d1103ddb639bbc4bcb27</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 10:16:59</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=6437e77f1bf7d1103ddb639bbc4bcb27"/></record_update>]]></payload>
+        <payload_hash>1679815910</payload_hash>
+        <record_name>CallCreator</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:17:00</sys_created_on>
+        <sys_id>a8372f7f1bf7d1103ddb639bbc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853e7c6e280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:17:00</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>e0372f7f09f7d1102d2f87958487b3fd</update_guid>
+        <update_guid_history>e0372f7f09f7d1102d2f87958487b3fd:1679815910</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:30:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>46e28d99f26f46f683307688dc710919</sys_id>
+        <sys_metadata>6437e77f1bf7d1103ddb639bbc4bcb27</sys_metadata>
+        <sys_name>CallCreator</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_6437e77f1bf7d1103ddb639bbc4bcb27</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_6437e77f1bf7d1103ddb639bbc4bcb27">a8372f7f1bf7d1103ddb639bbc4bcbfd</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MODAL_SELECTED_RELAY_25b5e048a9c8e110ad10f1e9d96ba7d3</event_name>
+        <interfaces/>
+        <label>Open or close modal dialog Relay (Security and login Default)</label>
+        <props>[{"name":"modalId","fieldType":"string","interfaceApiName":"global.modal","label":"Modal"},{"name":"showModal","fieldType":"boolean","interfaceApiName":null,"label":"Open modal dialog"},{"name":"displayOptions","fieldType":"json","interfaceApiName":null,"label":"Display options (advanced)"},{"name":"bare","fieldType":"boolean","interfaceApiName":"global.modal","label":"Use bare modal"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:15</sys_created_on>
+        <sys_id>a1b5e048a6c8e1109102de37ba61eed3</sys_id>
+        <sys_name>Open or close modal dialog Relay (Security and login Default)</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_event_a1b5e048a6c8e1109102de37ba61eed3</sys_update_name>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1b5e048a6c8e1109102de37ba61eed3"/>
+</record_update>

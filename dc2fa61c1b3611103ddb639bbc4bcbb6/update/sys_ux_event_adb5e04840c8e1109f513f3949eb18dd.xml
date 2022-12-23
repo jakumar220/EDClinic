@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MY_REQUEST</event_name>
+        <interfaces/>
+        <label>My request</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:09</sys_created_on>
+        <sys_id>adb5e04840c8e1109f513f3949eb18dd</sys_id>
+        <sys_name>My request</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_event_adb5e04840c8e1109f513f3949eb18dd</sys_update_name>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=adb5e04840c8e1109f513f3949eb18dd"/>
+</record_update>
