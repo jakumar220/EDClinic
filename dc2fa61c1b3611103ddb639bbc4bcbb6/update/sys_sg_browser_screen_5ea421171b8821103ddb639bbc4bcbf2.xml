@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <check_acl>false</check_acl>
+        <description>Access Your Patient Centre</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Patient Centre Icon">46a421171b8821103ddb639bbc4bcb39</icon>
+        <name>Patient Centre</name>
+        <relative_url>false</relative_url>
+        <roles_override>x_926609_edclinic.internal_user</roles_override>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>manifah.masood</sys_created_by>
+        <sys_created_on>2023-01-02 21:45:32</sys_created_on>
+        <sys_id>5ea421171b8821103ddb639bbc4bcbf2</sys_id>
+        <sys_name>Patient Centre</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_5ea421171b8821103ddb639bbc4bcbf2</sys_update_name>
+        <url>pc</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ea421171b8821103ddb639bbc4bcbf2"/>
+</record_update>

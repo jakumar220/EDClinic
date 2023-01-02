@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>true</can_cancel>
         <category/>
-        <checked_out/>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -82,7 +82,7 @@
         <short_description>Ask for assistance</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-23 15:09:38</sys_created_on>

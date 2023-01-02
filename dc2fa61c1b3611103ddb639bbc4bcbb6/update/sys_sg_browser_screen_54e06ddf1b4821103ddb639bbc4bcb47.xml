@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <check_acl>false</check_acl>
+        <description>Access Service Portal</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Service Portal Icon">04e021131b8821103ddb639bbc4bcb9a</icon>
+        <name>Service Portal</name>
+        <relative_url>false</relative_url>
+        <roles_override>x_926609_edclinic.admin,x_926609_edclinic.it_admin,x_926609_edclinic.it_support,x_926609_edclinic.maintenance,x_926609_edclinic.staff,x_926609_edclinic.staff_admin,x_926609_edclinic.user</roles_override>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>manifah.masood</sys_created_by>
+        <sys_created_on>2023-01-02 21:29:39</sys_created_on>
+        <sys_id>54e06ddf1b4821103ddb639bbc4bcb47</sys_id>
+        <sys_name>Service Portal</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_54e06ddf1b4821103ddb639bbc4bcb47</sys_update_name>
+        <url>sp</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=54e06ddf1b4821103ddb639bbc4bcb47"/>
+</record_update>
