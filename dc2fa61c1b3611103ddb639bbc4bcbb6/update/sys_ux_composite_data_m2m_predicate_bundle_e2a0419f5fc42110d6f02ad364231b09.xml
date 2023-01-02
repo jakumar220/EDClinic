@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">eea0419fc4c42110f64677ea971b1a0a</dataset>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">22a0419f7dc4211089a6fdb77fb63409</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-02 19:08:13</sys_created_on>
+        <sys_id>e2a0419f5fc42110d6f02ad364231b09</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_e2a0419f5fc42110d6f02ad364231b09</sys_update_name>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

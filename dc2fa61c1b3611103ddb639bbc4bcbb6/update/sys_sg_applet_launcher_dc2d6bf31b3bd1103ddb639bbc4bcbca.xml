@@ -6,7 +6,7 @@
         <header_titles/>
         <hide_empty_sections>true</hide_empty_sections>
         <name>Patient Care Centre</name>
-        <required_roles>x_926609_edclinic.admin,x_926609_edclinic.external_user,x_926609_edclinic.internal_user,x_926609_edclinic.it_admin,x_926609_edclinic.it_support,x_926609_edclinic.maintenance,x_926609_edclinic.staff,x_926609_edclinic.staff_admin,x_926609_edclinic.user</required_roles>
+        <required_roles>x_926609_edclinic.admin,x_926609_edclinic.internal_user,x_926609_edclinic.it_admin,x_926609_edclinic.it_support,x_926609_edclinic.maintenance,x_926609_edclinic.staff,x_926609_edclinic.staff_admin,x_926609_edclinic.user</required_roles>
         <search_config/>
         <sys_class_name>sys_sg_applet_launcher</sys_class_name>
         <sys_created_by>admin</sys_created_by>

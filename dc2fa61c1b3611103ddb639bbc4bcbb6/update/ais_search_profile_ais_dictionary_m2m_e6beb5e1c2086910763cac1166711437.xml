@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_stop_word_dictionary">9865058bc7031010d1cfd9795cc26037</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="EDClinic Technical Workspace Search Profile">2abeb5e1230869102a3c1cec5cc32637</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 13:09:58</sys_created_on>
+        <sys_id>e6beb5e1c2086910763cac1166711437</sys_id>
+        <sys_name>default_stop_word_dictionary.EDClinic Technical Workspace Search Profile</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_e6beb5e1c2086910763cac1166711437</sys_update_name>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 16:34:45</sys_created_on>
+        <sys_id>30f321511b0829103ddb639bbc4bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sc_category_30f321511b0829103ddb639bbc4bcbad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 16:34:45</sys_updated_on>
+        <title>Maintenance</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=30f321511b0829103ddb639bbc4bcbad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sc_category_30f321511b0829103ddb639bbc4bcbad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-27 16:34:45</sys_created_on><sys_id>30f321511b0829103ddb639bbc4bcbad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Maintenance</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sc_category_30f321511b0829103ddb639bbc4bcbad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-27 16:34:45</sys_updated_on><title>Maintenance</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=30f321511b0829103ddb639bbc4bcbad"/></record_update>]]></payload>
+        <payload_hash>1268243124</payload_hash>
+        <record_name>Maintenance</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 16:34:45</sys_created_on>
+        <sys_id>810461511b0829103ddb639bbc4bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185546fb7300000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-27 16:34:45</sys_updated_on>
+        <type>Category</type>
+        <update_guid>c90461518a0829109e4a74a31bab89e6</update_guid>
+        <update_guid_history>c90461518a0829109e4a74a31bab89e6:1268243124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Maintenance">12d421911b0829103ddb639bbc4bcb5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-27 16:38:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>6f003d91af7e497a8a19785ce976b919</sys_id>
+        <sys_metadata>30f321511b0829103ddb639bbc4bcbad</sys_metadata>
+        <sys_name>Maintenance</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sc_category_30f321511b0829103ddb639bbc4bcbad</sys_update_name>
+        <sys_update_version display_value="sc_category_30f321511b0829103ddb639bbc4bcbad">810461511b0829103ddb639bbc4bcbe7</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

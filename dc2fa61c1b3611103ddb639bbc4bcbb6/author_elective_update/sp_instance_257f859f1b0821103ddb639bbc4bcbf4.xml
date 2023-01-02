@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">60a50d931b0821103ddb639bbc4bcbc9</sp_column>
+        <sp_widget display_value="Change Password">28d805729f74030030581471367fcf80</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 20:12:49</sys_created_on>
+        <sys_id>257f859f1b0821103ddb639bbc4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sp_instance_257f859f1b0821103ddb639bbc4bcbf4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 20:12:49</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=257f859f1b0821103ddb639bbc4bcbf4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sp_instance_257f859f1b0821103ddb639bbc4bcbf4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">60a50d931b0821103ddb639bbc4bcbc9</sp_column><sp_widget display_value="Change Password">28d805729f74030030581471367fcf80</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-02 20:12:49</sys_created_on><sys_id>257f859f1b0821103ddb639bbc4bcbf4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sp_instance_257f859f1b0821103ddb639bbc4bcbf4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-02 20:12:49</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=257f859f1b0821103ddb639bbc4bcbf4"/></record_update>]]></payload>
+        <payload_hash>-1897048102</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 20:12:49</sys_created_on>
+        <sys_id>f17f859f1b0821103ddb639bbc4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185741d84490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 20:12:49</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3d7f859fe40821109d1802d4a99ac5f5</update_guid>
+        <update_guid_history>3d7f859fe40821109d1802d4a99ac5f5:-1897048102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">318f459f1b0821103ddb639bbc4bcbaf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 20:13:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>96233210032e4dee8194249c5e5fa164</sys_id>
+        <sys_metadata>257f859f1b0821103ddb639bbc4bcbf4</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sp_instance_257f859f1b0821103ddb639bbc4bcbf4</sys_update_name>
+        <sys_update_version display_value="sp_instance_257f859f1b0821103ddb639bbc4bcbf4">f17f859f1b0821103ddb639bbc4bcbf6</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

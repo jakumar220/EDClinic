@@ -16,7 +16,7 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Clinic Catalog">76f3a09d1b76d1103ddb639bbc4bcbe2</sc_catalog>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-26 08:39:06</sys_created_on>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="DELETE">
+        <calling_cs_topic_id display_value="Request Item">d30d60d71b8421103ddb639bbc4bcb6a</calling_cs_topic_id>
+        <library_cs_topic_id display_value="End state card for Catalog Request">0b01391550d30110fa9b861f7d83d7f6</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"End state card for Catalog Request","library_topic_id":"0b01391550d30110fa9b861f7d83d7f6","parameter-mappings":[{"parameter-name":"record_id","value":{"type":"String","mode":"string","value":"{{vaVars.record_id}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"record_table","value":{"type":"String","mode":"string","value":"{{vaVars.record_table}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[],"id":"b8833f1ad8b04981bc101499c1e738b7","name":"End state card","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}</library_usage>
+        <node_id>b8833f1ad8b04981bc101499c1e738b7</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 17:42:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2f0d24d71b8421103ddb639bbc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_2f0d24d71b8421103ddb639bbc4bcb41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 17:42:29</sys_updated_on>
+    </sys_cs_topic_library_usage>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_cs_topic_library_usage_2f0d24d71b8421103ddb639bbc4bcb41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage"><sys_cs_topic_library_usage action="INSERT_OR_UPDATE"><calling_cs_topic_id display_value="Request Item">d30d60d71b8421103ddb639bbc4bcb6a</calling_cs_topic_id><library_cs_topic_id display_value="End state card for Catalog Request">0b01391550d30110fa9b861f7d83d7f6</library_cs_topic_id><library_usage>{"type":"LibraryCall","library_topic_name":"End state card for Catalog Request","library_topic_id":"0b01391550d30110fa9b861f7d83d7f6","parameter-mappings":[{"parameter-name":"record_id","value":{"type":"String","mode":"string","value":"{{vaVars.record_id}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"record_table","value":{"type":"String","mode":"string","value":"{{vaVars.record_table}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[],"id":"b8833f1ad8b04981bc101499c1e738b7","name":"End state card","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}</library_usage><node_id>b8833f1ad8b04981bc101499c1e738b7</node_id><sys_class_name>sys_cs_topic_library_usage</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-02 17:42:29</sys_created_on><sys_domain>global</sys_domain><sys_id>2f0d24d71b8421103ddb639bbc4bcb41</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_cs_topic_library_usage_2f0d24d71b8421103ddb639bbc4bcb41</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-02 17:42:29</sys_updated_on></sys_cs_topic_library_usage></record_update>]]></payload>
+        <payload_hash>-604050330</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 17:42:29</sys_created_on>
+        <sys_id>2b0d24d71b8421103ddb639bbc4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1857393e2160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 17:42:29</sys_updated_on>
+        <type>Topic Library Usage</type>
+        <update_guid>630d24d7bb84211046b7d31348395643</update_guid>
+        <update_guid_history>630d24d7bb84211046b7d31348395643:-604050330</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 17:44:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_cs_topic_library_usage">sys_cs_topic_library_usage</sys_db_object>
+        <sys_id>ae5a5f3a2f344b8c829ab7b4cf5e0781</sys_id>
+        <sys_metadata>2f0d24d71b8421103ddb639bbc4bcb41</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_cs_topic_library_usage_2f0d24d71b8421103ddb639bbc4bcb41</sys_update_name>
+        <sys_update_version display_value="sys_cs_topic_library_usage_2f0d24d71b8421103ddb639bbc4bcb41">2b0d24d71b8421103ddb639bbc4bcb43</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

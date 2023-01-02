@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen">
+    <sys_sg_parameter_screen action="DELETE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <available_offline>false</available_offline>
+        <cancel_label>Cancel</cancel_label>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <header_only_on_first_page>false</header_only_on_first_page>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon/>
+        <name>New Call</name>
+        <next_label>Next</next_label>
+        <pagination_type>all</pagination_type>
+        <prev_label>Previous</prev_label>
+        <reset_after_submit>false</reset_after_submit>
+        <resume>false</resume>
+        <roles_override/>
+        <submit_label>Submit</submit_label>
+        <sys_class_name>sys_sg_parameter_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 14:47:58</sys_created_on>
+        <sys_id>713568081bc8e1103ddb639bbc4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_parameter_screen_713568081bc8e1103ddb639bbc4bcb94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 14:47:58</sys_updated_on>
+        <type display_value="">string</type>
+        <view_config/>
+    </sys_sg_parameter_screen>
+    <sys_translated_text action="DELETE" query="documentkey=713568081bc8e1103ddb639bbc4bcb94"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_sg_parameter_screen_713568081bc8e1103ddb639bbc4bcb94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_parameter_screen"><sys_sg_parameter_screen action="INSERT_OR_UPDATE"><active>true</active><advanced>true</advanced><available_offline>false</available_offline><cancel_label>Cancel</cancel_label><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><header_only_on_first_page>false</header_only_on_first_page><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon/><name>New Call</name><next_label>Next</next_label><pagination_type>all</pagination_type><prev_label>Previous</prev_label><reset_after_submit>false</reset_after_submit><resume>false</resume><roles_override/><submit_label>Submit</submit_label><sys_class_name>sys_sg_parameter_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 14:47:58</sys_created_on><sys_id>713568081bc8e1103ddb639bbc4bcb94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Call</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_sg_parameter_screen_713568081bc8e1103ddb639bbc4bcb94</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 14:47:58</sys_updated_on><type display_value="">string</type><view_config/></sys_sg_parameter_screen><sys_translated_text action="delete_multiple" query="documentkey=713568081bc8e1103ddb639bbc4bcb94"/></record_update>]]></payload>
+        <payload_hash>-934759320</payload_hash>
+        <record_name>New Call</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 14:47:58</sys_created_on>
+        <sys_id>3d3568081bc8e1103ddb639bbc4bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853f7484770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 14:47:58</sys_updated_on>
+        <type>Input form screen</type>
+        <update_guid>7535680819c8e11064bf1323f700f695</update_guid>
+        <update_guid_history>7535680819c8e11064bf1323f700f695:-934759320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 21:05:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_parameter_screen">sys_sg_parameter_screen</sys_db_object>
+        <sys_id>34384df363e24af5b8761d74a3743f29</sys_id>
+        <sys_metadata>713568081bc8e1103ddb639bbc4bcb94</sys_metadata>
+        <sys_name>New Call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_sg_parameter_screen_713568081bc8e1103ddb639bbc4bcb94</sys_update_name>
+        <sys_update_version display_value="sys_sg_parameter_screen_713568081bc8e1103ddb639bbc4bcb94">3d3568081bc8e1103ddb639bbc4bcb95</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">e6a0019f24c4211067756428a8d2a9f6</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">22a0419f71c42110e34f61604c0a5c0f</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-02 19:08:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a6a0419f62c421101bb0bce4802ee605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_page_property_a6a0419f62c421101bb0bce4802ee605</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-02 19:08:14</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_926609_edclinic.e6a0019f24c4211067756428a8d2a9f6.route.chrome_header.22a0419f71c42110e34f61604c0a5c0f</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_ux_page_property_a6a0419f62c421101bb0bce4802ee605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">e6a0019f24c4211067756428a8d2a9f6</page><required_translations>[]</required_translations><route display_value="Login">22a0419f71c42110e34f61604c0a5c0f</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-01-02 19:08:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>a6a0419f62c421101bb0bce4802ee605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_ux_page_property_a6a0419f62c421101bb0bce4802ee605</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-01-02 19:08:14</sys_updated_on><type>json</type><unique_name>x_926609_edclinic.e6a0019f24c4211067756428a8d2a9f6.route.chrome_header.22a0419f71c42110e34f61604c0a5c0f</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1837231116</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>40d6d6d01b3211103ddb639bbc4bcbbf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-23 14:24:17</sys_created_on>
+        <sys_id>ed8205131b0821103ddb639bbc4bcbfb</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>184053ae6680000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>ad82051306082110c7aa557c4dcb2dfb</update_guid>
+        <update_guid_history>ad82051306082110c7aa557c4dcb2dfb:1837231116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 19:16:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1d0f27b667e84890950930955877ad59</sys_id>
+        <sys_metadata>a6a0419f62c421101bb0bce4802ee605</sys_metadata>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_a6a0419f62c421101bb0bce4802ee605</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_a6a0419f62c421101bb0bce4802ee605">ed8205131b0821103ddb639bbc4bcbfb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

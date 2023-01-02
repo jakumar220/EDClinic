@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>PatientCentre - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="patientcentre">2e950d931b0821103ddb639bbc4bcb39</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 19:30:03</sys_created_on>
+        <sys_id>47a545d31b0821103ddb639bbc4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PatientCentre - Container 2</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sp_container_47a545d31b0821103ddb639bbc4bcb4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 19:30:03</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sp_container_47a545d31b0821103ddb639bbc4bcb4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>PatientCentre - Container 2</name><order>2</order><sp_page display_value="patientcentre">2e950d931b0821103ddb639bbc4bcb39</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-02 19:30:03</sys_created_on><sys_id>47a545d31b0821103ddb639bbc4bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PatientCentre - Container 2</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sp_container_47a545d31b0821103ddb639bbc4bcb4f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-02 19:30:03</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-347652770</payload_hash>
+        <record_name>PatientCentre - Container 2</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 19:30:03</sys_created_on>
+        <sys_id>cfa545d31b0821103ddb639bbc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18573f65b780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-02 19:30:03</sys_updated_on>
+        <type>Container</type>
+        <update_guid>0ba545d3dd08211097690a2eacb6e250</update_guid>
+        <update_guid_history>0ba545d3dd08211097690a2eacb6e250:-347652770</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="PatientCentre - Container 2">dcf94dd71b0821103ddb639bbc4bcba8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 19:48:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>41853790ffe74fe68507023c8955c904</sys_id>
+        <sys_metadata>47a545d31b0821103ddb639bbc4bcb4f</sys_metadata>
+        <sys_name>PatientCentre - Container 2</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sp_container_47a545d31b0821103ddb639bbc4bcb4f</sys_update_name>
+        <sys_update_version display_value="sp_container_47a545d31b0821103ddb639bbc4bcb4f">cfa545d31b0821103ddb639bbc4bcb50</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

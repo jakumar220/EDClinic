@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Change Password Component v2">d05b64571b8421103ddb639bbc4bcb49</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"529a195b0d8745cf9f95a4ecc396ad96","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"529a195b0d8745cf9f95a4ecc396ad96"}],"goals":[{"name":"primary","trigger_id":"529a195b0d8745cf9f95a4ecc396ad96","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"975f0237421b4879b3ede8a22ec04679","name":"Start"},{"type":"CustomNode","type":"CustomNode","name":"Change Password Component","mode":"input","generateDataFunction":"function() {\n    // Build and return your data object that the custom control will be rendered with here.\n\n    return {'process_sys_id' : vaInputs.process, 'user_name' : vaInputs.username};\n}\n","messageTranscriptFunction":"function (controlData) {\n  return 'Data passed to Change Password custom Component : ' + JSON.strigify(controlData);\n}","skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"unsupportedDeviceMessage":{"type":"String","type":"String","mode":"string","value":"Sorry this channel is not supported."},"securedFDIHInvocation":{"type":"FDIHInvocation","type":"FDIHInvocation","name":"Change Password Component","kind":"action","mode":"sync","inputs":[{"supported_input_modes":[],"name":"process_sys_id","type":"script","order":0,"required":true,"value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    // Return a quoted string.\n\n    return vaInputs.process.getValue(); //pwd_process sys_id\n})()\n"}],"is_list_data_entry":false},{"supported_input_modes":[],"name":"user_sys_id","type":"script","order":0,"required":true,"value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    // Return a quoted string. \n\n    return vaInputs.user.getValue(); //sys_user sys_id\n})()\n"}],"is_list_data_entry":false},{"supported_input_modes":[],"name":"new_password","type":"secure_json_property","order":0,"required":true,"value":[{"type":"String","type":"String","mode":"custom_secure_input_response_property","value":"newPassword"}],"is_list_data_entry":false},{"supported_input_modes":[],"name":"old_password","type":"secure_json_property","order":0,"required":true,"value":[{"type":"String","type":"String","mode":"custom_secure_input_response_property","value":"oldPassword"}],"is_list_data_entry":false}],"outputs":[{"name":"requestid","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"request_id"},{"name":"error_message","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"error_message"},{"name":"status","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"status"},{"name":"__action_status__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"action_status"},{"name":"__dont_treat_as_error__","order":0,"value":[],"is_list_data_entry":false,"topicVariableName":"don_t_treat_as_error"}],"metadata":{"runAs":"session_user"},"id":"f34d39cff8f34f5a84c2d5dc2ca492aa","sys_id":"7039c80fadb00110f877284d962cda3c","scope":"b97c4977c70310100a9b5d83c7c260af"},"id":"f34d39cff8f34f5a84c2d5dc2ca492aa","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"88f9cea2d27e4195bab9c3ef3b40ce0f","name":"End"}],"edges":[{"type":"Edge","source_node_id":"f34d39cff8f34f5a84c2d5dc2ca492aa","target_node_id":"88f9cea2d27e4195bab9c3ef3b40ce0f","id":"5c2edf2fa160449ca8e2feea70add214"},{"type":"Edge","source_node_id":"975f0237421b4879b3ede8a22ec04679","target_node_id":"f34d39cff8f34f5a84c2d5dc2ca492aa","id":"a2fd3edb9e0e4e7b9cb4d492a0a4f20b"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"4c359f2fb4f34c6ab0694c557a1b73f7","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Reference","type":"Reference","table":"pwd_process","id":"3f8368ad68d742488499f9a0cfa0a204","name":"process","formatType":"text","metadata":{"libraryMappingType":"input"},"secure":false,"sensitive":false,"list":false},{"type":"VariableDto","type":"String","name":"username","list":false,"id":"4c1cea7b3b344488a4e4ea81214558af","formatType":"text","metadata":{"libraryMappingType":"input"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"request_id","list":false,"id":"487b8127cbb84323980a32e57ad4515c","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"error_message","list":false,"id":"d1e2454f17dc46baa005d709de3146c9","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"status","list":false,"id":"2fa9ae087159496d8a18b2b4ebe2ab88","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"action_status","list":false,"id":"58d9293fec2d410c8fe11bf10aebbb02","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"True/False","type":"True/False","id":"1e8849253bc748e3bd3e646a95d9f416","name":"don_t_treat_as_error","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"dc2fa61c1b3611103ddb639bbc4bcbb6","library-usage":{"type":"Library","input-parameters":[{"name":"process","label":"Process","required":true,"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"pwd_process","query":""},"id":"3f8368ad68d742488499f9a0cfa0a204","type":"Reference","hint":"Password Reset Process reference is required (pwd_process)"},{"name":"username","label":"UserName","default-value":"\"\"","required":true,"metadata":{"type":"String","list":false,"items":[],"use_items":false},"id":"4c1cea7b3b344488a4e4ea81214558af","type":"String"}],"return-values-mapping":[{"name":"success","label":"Success","value":{"type":"String","type":"String","mode":"string","value":"{{vaInputs.status}}"}},{"name":"request_id","label":"Request_Id","value":{"type":"String","type":"String","mode":"string","value":"{{vaInputs.request_id}}"}},{"name":"error_message","label":"Error_Message","value":{"type":"String","type":"String","mode":"string","value":"{{vaInputs.error_message}}"}}]},"domain":"global","topic_type":"CUSTOM_INPUT","channels":[],"id":"723ba8171b8421103ddb639bbc4bcba7","name":"Change Password Component v2","key_phrases":[],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":true,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":true,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>723ba8171b8421103ddb639bbc4bcba7</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "975f0237421b4879b3ede8a22ec04679": {
+          "id": "975f0237421b4879b3ede8a22ec04679",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          },
+          "parameters": [
+            {
+              "type": "Reference",
+              "value": null,
+              "id": "3f8368ad68d742488499f9a0cfa0a204",
+              "name": "Process",
+              "required": true,
+              "table": "pwd_process",
+              "hint": "Password Reset Process reference is required (pwd_process)",
+              "referenced": true,
+              "disabled": true,
+              "query": ""
+            },
+            {
+              "type": "String",
+              "value": "",
+              "id": "4c1cea7b3b344488a4e4ea81214558af",
+              "name": "UserName",
+              "required": true,
+              "referenced": true,
+              "disabled": true
+            }
+          ],
+          "variableIds": [
+            "3f8368ad68d742488499f9a0cfa0a204",
+            "4c1cea7b3b344488a4e4ea81214558af"
+          ]
+        },
+        "f34d39cff8f34f5a84c2d5dc2ca492aa": {
+          "id": "f34d39cff8f34f5a84c2d5dc2ca492aa",
+          "stepType": "CustomInput",
+          "name": "Change Password Component",
+          "generateDataFunction": "function() {\n    // Build and return your data object that the custom control will be rendered with here.\n\n    return {'process_sys_id' : vaInputs.process, 'user_name' : vaInputs.username};\n}\n",
+          "messageTranscriptFunction": "function (controlData) {\n  return 'Data passed to Change Password custom Component : ' + JSON.strigify(controlData);\n}",
+          "inputResponseHandlerFunction": "",
+          "inputResponseMessageTranscriptFunction": "",
+          "unsupportedDeviceMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Sorry this channel is not supported."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "invocationType": "action",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "actionRunAs": "session_user",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "variableIds": [
+            "487b8127cbb84323980a32e57ad4515c",
+            "d1e2454f17dc46baa005d709de3146c9",
+            "2fa9ae087159496d8a18b2b4ebe2ab88",
+            "58d9293fec2d410c8fe11bf10aebbb02",
+            "1e8849253bc748e3bd3e646a95d9f416"
+          ],
+          "actionSpoke": "b97c4977c70310100a9b5d83c7c260af",
+          "actionSpokeAction": "7039c80fadb00110f877284d962cda3c",
+          "actionWaitType": "sync",
+          "actionInputs": {
+            "input-process_sys_id": {
+              "value": "(function execute() {\n    // Return a quoted string.\n\n    return vaInputs.process.getValue(); //pwd_process sys_id\n})()\n",
+              "mode": "script",
+              "secure": false
+            },
+            "input-user_sys_id": {
+              "value": "(function execute() {\n    // Return a quoted string. \n\n    return vaInputs.user.getValue(); //sys_user sys_id\n})()\n",
+              "mode": "script",
+              "secure": false
+            },
+            "input-new_password": {
+              "value": "newPassword",
+              "mode": "secure_json_property",
+              "secure": true
+            },
+            "input-old_password": {
+              "value": "oldPassword",
+              "mode": "secure_json_property",
+              "secure": true
+            }
+          },
+          "actionOutputs": {
+            "output-requestid": [
+              {
+                "id": "487b8127cbb84323980a32e57ad4515c",
+                "mapping": "Request Id",
+                "value": "Request Id",
+                "disabled": false,
+                "type": "string"
+              }
+            ],
+            "output-error_message": [
+              {
+                "id": "d1e2454f17dc46baa005d709de3146c9",
+                "mapping": "Error Message",
+                "value": "Error Message",
+                "disabled": false,
+                "type": "string"
+              }
+            ],
+            "output-status": [
+              {
+                "id": "2fa9ae087159496d8a18b2b4ebe2ab88",
+                "mapping": "Status",
+                "value": "Status",
+                "disabled": false,
+                "type": "string"
+              }
+            ],
+            "output-__action_status__": [
+              {
+                "id": "58d9293fec2d410c8fe11bf10aebbb02",
+                "mapping": "Action Status",
+                "value": "Action Status",
+                "disabled": false,
+                "type": "object"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "1e8849253bc748e3bd3e646a95d9f416",
+                "mapping": "Don't Treat as Error",
+                "value": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "7039c80fadb00110f877284d962cda3c",
+            "latest_snapshot_id": "7039c80fadb00110f877284d962cda3c",
+            "type": "action",
+            "name": "change_password",
+            "label": "Change Password",
+            "scope_id": "b97c4977c70310100a9b5d83c7c260af",
+            "description": "Changes user password for a given process, also validates the old password before changing.",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "process_sys_id",
+                "label": "Process Sys Id",
+                "type": "string",
+                "order": 1,
+                "required": true
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "user_sys_id",
+                "label": "User Sys Id",
+                "type": "string",
+                "order": 2,
+                "required": true
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "new_password",
+                "label": "New Password",
+                "type": "string",
+                "order": 3,
+                "required": true
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "old_password",
+                "label": "Old Password",
+                "type": "string",
+                "order": 4,
+                "required": true
+              }
+            ],
+            "output_parameters": [
+              {
+                "name": "requestid",
+                "label": "Request Id",
+                "type": "string",
+                "order": 1,
+                "required": true
+              },
+              {
+                "name": "error_message",
+                "label": "Error Message",
+                "type": "string",
+                "order": 2,
+                "required": true
+              },
+              {
+                "name": "status",
+                "label": "Status",
+                "type": "string",
+                "order": 3,
+                "required": true
+              },
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 4,
+                "required": false
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 5,
+                "required": false
+              }
+            ]
+          },
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User."
+        },
+        "88f9cea2d27e4195bab9c3ef3b40ce0f": {
+          "id": "88f9cea2d27e4195bab9c3ef3b40ce0f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "outputVariables": [
+            {
+              "key": "Success",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.status}}",
+                        "displayValue": "Input Variables➛Status"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            },
+            {
+              "key": "Request_Id",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.request_id}}",
+                        "displayValue": "Input Variables➛Request Id"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            },
+            {
+              "key": "Error_Message",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.error_message}}",
+                        "displayValue": "Input Variables➛Error Message"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "edges": [
+        {
+          "id": "5c2edf2fa160449ca8e2feea70add214",
+          "edgeType": "Edge",
+          "source": "f34d39cff8f34f5a84c2d5dc2ca492aa",
+          "target": "88f9cea2d27e4195bab9c3ef3b40ce0f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "a2fd3edb9e0e4e7b9cb4d492a0a4f20b",
+          "edgeType": "Edge",
+          "source": "975f0237421b4879b3ede8a22ec04679",
+          "target": "f34d39cff8f34f5a84c2d5dc2ca492aa",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "4c359f2fb4f34c6ab0694c557a1b73f7": {
+      "category": "vaInputs",
+      "id": "4c359f2fb4f34c6ab0694c557a1b73f7",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "3f8368ad68d742488499f9a0cfa0a204": {
+      "id": "3f8368ad68d742488499f9a0cfa0a204",
+      "name": "process",
+      "label": "Process",
+      "defaultValue": null,
+      "varType": "reference",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "table": "pwd_process"
+    },
+    "4c1cea7b3b344488a4e4ea81214558af": {
+      "id": "4c1cea7b3b344488a4e4ea81214558af",
+      "name": "username",
+      "label": "UserName",
+      "defaultValue": "",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
+    },
+    "487b8127cbb84323980a32e57ad4515c": {
+      "id": "487b8127cbb84323980a32e57ad4515c",
+      "name": "request_id",
+      "label": "Request Id",
+      "defaultValue": "Request Id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "d1e2454f17dc46baa005d709de3146c9": {
+      "id": "d1e2454f17dc46baa005d709de3146c9",
+      "name": "error_message",
+      "label": "Error Message",
+      "defaultValue": "Error Message",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "2fa9ae087159496d8a18b2b4ebe2ab88": {
+      "id": "2fa9ae087159496d8a18b2b4ebe2ab88",
+      "name": "status",
+      "label": "Status",
+      "defaultValue": "Status",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "58d9293fec2d410c8fe11bf10aebbb02": {
+      "id": "58d9293fec2d410c8fe11bf10aebbb02",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "1e8849253bc748e3bd3e646a95d9f416": {
+      "id": "1e8849253bc748e3bd3e646a95d9f416",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    }
+  }
+}</graph>
+        <name>Change Password Component v2</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 17:34:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d45b64571b8421103ddb639bbc4bcb59</sys_id>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_cb_design_topic_d45b64571b8421103ddb639bbc4bcb59</sys_update_name>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

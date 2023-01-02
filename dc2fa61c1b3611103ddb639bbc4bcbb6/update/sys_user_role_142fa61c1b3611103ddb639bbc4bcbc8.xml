@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
-        <assignable_by/>
+        <assignable_by display_value="x_926609_edclinic.admin" name="x_926609_edclinic.admin">a42fa61c1b3611103ddb639bbc4bcbcf</assignable_by>
         <can_delegate>true</can_delegate>
         <description>Nurses and inter nurses role</description>
         <elevated_privilege>false</elevated_privilege>

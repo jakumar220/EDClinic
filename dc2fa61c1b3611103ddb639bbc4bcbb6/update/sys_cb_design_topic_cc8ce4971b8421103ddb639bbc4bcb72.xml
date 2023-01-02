@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="Change Password">808ce4971b8421103ddb639bbc4bcb6f</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"8351080b13bf45bbbf67ef4766ddf71e","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"8351080b13bf45bbbf67ef4766ddf71e"}],"goals":[{"name":"primary","trigger_id":"8351080b13bf45bbbf67ef4766ddf71e","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"e79ef03fde5b45b39c9d44d9e7ce9bdb","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"166f2fc1d1b64e15939a170b21590715","name":"End"},{"type":"ReferenceChoiceInputPrompt","type":"ReferenceChoiceInputPrompt","mode":"external","id":"1744c6678e5944e4a75c6a24b5b8e482","name":"Change Password Process Choice","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"variable_id":"73e7479ef1964a26a50c0bba62cc67de","message":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Which password would you like to change?\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true},"expression_mode":"script","script":"(function execute() {\n    // Populate change password processes for logged in user\n    return JSON.parse(vaVars.pwd_change_processes);  \n})()\n","metadataScript":"","cardName":"","cardFields":[],"no_options_found_message":{"type":"String","type":"String","mode":"script","value":"(function execute() {\n     return '';\n})()\n"},"condition":{"type":"Condition","mode":"external_script","value":"(function execute() {\n    // Populate change password processes for logged in user\n    return JSON.parse(vaVars.pwd_change_processes);  \n})()\n"}},{"type":"Decision","type":"Decision","name":"Check Change Password Action Result","branches":[{"type":"Branch","type":"Branch","label":"Change Password Failed Or User Is Blocked","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    if(vaInputs.change_result == 'failure') {\n        vaVars.pwd_change_failure_message = vaInputs.change_error_message;\n        return true;\n    }\n    else if(vaInputs.change_result == 'block') {\n        vaVars.pwd_change_failure_message = gs.getMessage(\"I wasn't able to change your password for you because you've either already changed it recently or reached the limit on update attempts.\");\n        return true;\n    }\n    return false;\n})()"},"id":"7e0f98c60c034a928b66e2390d8c77d9","name":"Change Password Failed Or User Is Blocked"},{"type":"Branch","type":"Branch","label":"Change Password Success Or Pending","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    if(vaInputs.change_result == 'success') {\n        vaVars.pwd_change_success_message = gs.getMessage(\"Great! You have a new password! Please log in again using your new password.\");\n        return true;\n    }\n    else if(vaInputs.change_result == 'pending') {\n        vaVars.pwd_change_success_message = gs.getMessage(\"Your request for a password change has been initiated. After the request is completed, you will get a confirmation.\");\n        return true;\n    }\n    return false;\n})()"},"id":"67954586f67d48858ca8c51dd570c9f7","name":"Change Password Success Or Pending"}],"id":"47f1bad1b7f74e37ad89d60fe55e1260","goal_id":"primary"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    return vaVars.pwd_change_success_message;\n})()"}],"id":"a360f567ea9e4e30bcc16b67a5af1843","name":"Show Change Password Success Message","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    /* Populate password rule hint.\n    */\n    var ruleHint = new global.PasswordResetScopedUtil().getPasswordRuleHint(vaVars.pwd_change_selected_process_id.toString());\n    return gs.getMessage(\"Make sure your password meets these requirements:\\n{0}\", ruleHint);\n})()\n"}],"id":"9c1fc546d561428ba52a7afa341bb6b6","name":"Show Password Rule Hint","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"ScriptedAction","type":"ScriptedAction","script":"(function execute() {\n    /* Populate change password processes for logged in user\n    */ \n    var options = [];\n    var passwordResetScopedUtilObj = new global.PasswordResetScopedUtil();\n    var processIds = passwordResetScopedUtilObj.getChangePasswordProcessIds(gs.getUserID());\n    for (var i = 0; i &lt; processIds.length; i++) {\n        var processId = processIds[i];\n        var process = getProcessDetails(processId);\n        if (process != undefined) {\n            options.push(process);\n        }\n    }\n    vaVars.pwd_change_processes = JSON.stringify(options);\n\n    function getProcessDetails(processId) {\n        var gr = new GlideRecord('pwd_process');\n        gr.get(processId)\n        processDetails = {\n                'value': gr.getUniqueValue(),\n                'label': gr.getDisplayValue('label')  == \"\" || gr.getDisplayValue('label') == null\n                ?  gr.getValue('name') : gr.getDisplayValue('label')\n        }\n        return processDetails;\n    }\n})()\n","id":"405bf4d5e96b4b208807b95d9764cee7","name":"Populate Change Password Process","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    return true;\n})()\n"}},{"type":"Decision","type":"Decision","name":"Check Change Password Process Count","branches":[{"type":"Branch","type":"Branch","label":"Multi Process","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    /* If more than one change password processes are configured for user\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length &gt; 1;\n})()\n"},"id":"8a7559dc8e6c4c77a6b0b66a3f318250","name":"Multi Process"},{"type":"Branch","type":"Branch","label":"Process Not Configured","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    /* If change password process is not configured for user.\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length == 0;\n})()\n"},"id":"9cda2b1c06744ecd8677987cc20c207e","name":"Process Not Configured"},{"type":"Branch","type":"Branch","label":"Single Process","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    /* Check number of change password process entitled for user, if single process exists,\n     select it.\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length == 1;\n})()\n"},"id":"55f47ee3fba0401c9d0eda24a74034f4","name":"Single Process"}],"id":"3bac6185b0594c178b9d014ec610167b","goal_id":"primary"},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    /* If Single change password process is configured, initialize default selection.\n    */\n    var process = JSON.parse(vaVars.pwd_change_processes);\n    vaVars.pwd_change_selected_process_id = process[0].value;\n    return gs.getMessage(\"OK, you're changing the password for  {0}\", process[0].label);\n})()\n"}],"id":"988b2a3dab154a68910354dfc75d35ff","name":"Show Default Process Selection","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"ScriptedAction","type":"ScriptedAction","script":"(function execute() {\n    /* Initialize the chage password process selection\n    */\n    vaVars.pwd_change_selected_process_id = vaInputs.change_password_process_choice.toString();\n})()\n","id":"8c2ea93c06d642e38d32d138c152fd0f","name":"Set User Selected Process ","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"TextOutputPrompt","type":"TextOutputPrompt","value":[{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    return vaVars.pwd_change_failure_message;\n})()"}],"id":"e3692facb58746f5a1bd6a66efd3662b","name":"Show Change Password Failed Message","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"secure":false},{"type":"Decision","type":"Decision","name":"Does Channel Support Password Field","branches":[{"type":"Branch","type":"Branch","label":"Channel Does Not Support Password Field","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    var PROP_VA_PASSWORD_SUPPORTED_CHANNELS = \"sn_pwdreset_va.supported_channels\";\n    var SPLIT_CHAR = \",\";\n    return gs.getProperty(PROP_VA_PASSWORD_SUPPORTED_CHANNELS).split(SPLIT_CHAR).indexOf(vaContext.deviceType) &lt; 0;\n})()\n"},"id":"5057074a5a244d7cb63df93f1aba5fb2","name":"Channel Does Not Support Password Field"},{"type":"Branch","type":"Branch","label":"Channel Supports Password Field","expression":{"type":"Applicability","type":"Applicability","mode":"script","value":"(function execute() {\n    var PROP_VA_PASSWORD_SUPPORTED_CHANNELS = \"sn_pwdreset_va.supported_channels\";\n    var SPLIT_CHAR = \",\";\n    return gs.getProperty(PROP_VA_PASSWORD_SUPPORTED_CHANNELS).split(SPLIT_CHAR).indexOf(vaContext.deviceType) &gt; -1;\n})()\n"},"id":"f7e5224cc5ea4391b04ce516ebc16d2b","name":"Channel Supports Password Field"}],"id":"cc0afff25ca54a12b4624164ef30d766","goal_id":"primary"},{"type":"LinkOutputPrompt","type":"LinkOutputPrompt","header":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"I'm not able to change your password.\", vaContext.getRequesterLang())"},"label":{"type":"String","type":"String","mode":"string","value":"gs.getMessageLang(\"Click here to change password.\", vaContext.getRequesterLang())"},"url":{"type":"String","type":"String","mode":"script","value":"(function execute() {\n    return gs.getProperty('glide.servlet.uri') + 'nav_to.do?uri=$pwd_change.do';\n})()\n"},"link_type":"single","multi_link_script":"","id":"07a88ff156f245bb86ed2377d06faa00","name":"Change Password Link","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"LibraryCall","type":"LibraryCall","library_topic_name":"Deflection","library_topic_id":"7fb4ca055303201033cdddeeff7b12b3","parameter-mappings":[{"parameter-name":"deflection_configuration","value":{"type":"String","type":"String","mode":"string","value":"5292005253213010000dddeeff7b126c"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"ssa_deflection_configuration"}},{"parameter-name":"deflection_pattern","value":{"type":"String","type":"String","mode":"string","value":"9ee3409253213010000dddeeff7b123b"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"ssa_deflection_pattern"}},{"parameter-name":"activity_table","value":{"type":"String","type":"String","mode":"string","value":""},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"activity_ids","value":{"type":"String","type":"String","mode":"string","value":""},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[],"id":"a9730b63e19b433f9ec806bb8a0a7bb0","name":"No Deflection","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"LibraryCall","type":"LibraryCall","library_topic_name":"Deflection","library_topic_id":"7fb4ca055303201033cdddeeff7b12b3","parameter-mappings":[{"parameter-name":"deflection_configuration","value":{"type":"String","type":"String","mode":"string","value":"5292005253213010000dddeeff7b126c"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"ssa_deflection_configuration"}},{"parameter-name":"deflection_pattern","value":{"type":"String","type":"String","mode":"string","value":"0273885253213010000dddeeff7b1210"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"ssa_deflection_pattern"}},{"parameter-name":"activity_table","value":{"type":"String","type":"String","mode":"string","value":""},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"activity_ids","value":{"type":"String","type":"String","mode":"string","value":""},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[],"id":"8ce2db0ea13247668a77abdfc7654421","name":"Deflection: Password Change Successful","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}},{"type":"LibraryCall","type":"LibraryCall","library_topic_name":"Change Password Component v2","library_topic_id":"d05b64571b8421103ddb639bbc4bcb49","parameter-mappings":[{"parameter-name":"process","value":{"type":"String","type":"String","mode":"script","value":"(function execute() {\n\n    return vaVars.pwd_change_selected_process_id;\n})()\n"},"metadata":{"type":"Reference","list":false,"items":[],"use_items":false,"table":"pwd_process"}},{"parameter-name":"username","value":{"type":"String","type":"String","mode":"string","value":"{{vaInputs.user.user_name}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"success","main_topic_mapped_variable_name":"success"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"request_id","main_topic_mapped_variable_name":"request_id1"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"error_message","main_topic_mapped_variable_name":"error_message"}],"id":"fbcb9a2c464a4aaab032b5ba63f4aef2","name":"Change Password Component v2","goal_id":"primary","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"}}],"edges":[{"type":"Edge","source_node_id":"8c2ea93c06d642e38d32d138c152fd0f","target_node_id":"9c1fc546d561428ba52a7afa341bb6b6","id":"85cafb16324e46f2a68390e695e06d51"},{"type":"Edge","source_node_id":"e3692facb58746f5a1bd6a66efd3662b","target_node_id":"a9730b63e19b433f9ec806bb8a0a7bb0","id":"f626488f0dd34aae9bca78305bfab3d5"},{"type":"Edge","source_node_id":"47f1bad1b7f74e37ad89d60fe55e1260","target_node_id":"e3692facb58746f5a1bd6a66efd3662b","branch_id":"7e0f98c60c034a928b66e2390d8c77d9","id":"5f67e7b50035405eb52bf503defecc55","name":"7e0f98c60c034a928b66e2390d8c77d9"},{"type":"Edge","source_node_id":"07a88ff156f245bb86ed2377d06faa00","target_node_id":"8ce2db0ea13247668a77abdfc7654421","id":"f9b91cb49c59489eb3aab20f09026cb1"},{"type":"Edge","source_node_id":"cc0afff25ca54a12b4624164ef30d766","target_node_id":"07a88ff156f245bb86ed2377d06faa00","branch_id":"5057074a5a244d7cb63df93f1aba5fb2","id":"d25569effbd741109aff6efd7aecaa48","name":"5057074a5a244d7cb63df93f1aba5fb2"},{"type":"Edge","source_node_id":"47f1bad1b7f74e37ad89d60fe55e1260","target_node_id":"a360f567ea9e4e30bcc16b67a5af1843","branch_id":"67954586f67d48858ca8c51dd570c9f7","id":"23741484189746da99bf54189cdeecbc","name":"67954586f67d48858ca8c51dd570c9f7"},{"type":"Edge","source_node_id":"405bf4d5e96b4b208807b95d9764cee7","target_node_id":"3bac6185b0594c178b9d014ec610167b","id":"2b69b4c53cb94420aaa7e0f81eb184c9"},{"type":"Edge","source_node_id":"3bac6185b0594c178b9d014ec610167b","target_node_id":"1744c6678e5944e4a75c6a24b5b8e482","branch_id":"8a7559dc8e6c4c77a6b0b66a3f318250","id":"3caed5b4514445b282798d59cf1866b7","name":"8a7559dc8e6c4c77a6b0b66a3f318250"},{"type":"Edge","source_node_id":"3bac6185b0594c178b9d014ec610167b","target_node_id":"07a88ff156f245bb86ed2377d06faa00","branch_id":"9cda2b1c06744ecd8677987cc20c207e","id":"ca6f7b4c3c2f4faabb37ed993569ada3","name":"9cda2b1c06744ecd8677987cc20c207e"},{"type":"Edge","source_node_id":"3bac6185b0594c178b9d014ec610167b","target_node_id":"988b2a3dab154a68910354dfc75d35ff","branch_id":"55f47ee3fba0401c9d0eda24a74034f4","id":"734286fa0d734c93904ba70c8d798f5e","name":"55f47ee3fba0401c9d0eda24a74034f4"},{"type":"Edge","source_node_id":"1744c6678e5944e4a75c6a24b5b8e482","target_node_id":"8c2ea93c06d642e38d32d138c152fd0f","id":"3f978736ac3f453bbe35e76c8e69c249"},{"type":"Edge","source_node_id":"988b2a3dab154a68910354dfc75d35ff","target_node_id":"9c1fc546d561428ba52a7afa341bb6b6","id":"d88ac05e56484d199d3d6e8fd83fab62"},{"type":"Edge","source_node_id":"e79ef03fde5b45b39c9d44d9e7ce9bdb","target_node_id":"cc0afff25ca54a12b4624164ef30d766","id":"115de825a32f4b18a073884ada025c2c"},{"type":"Edge","source_node_id":"cc0afff25ca54a12b4624164ef30d766","target_node_id":"405bf4d5e96b4b208807b95d9764cee7","branch_id":"f7e5224cc5ea4391b04ce516ebc16d2b","id":"266c6e3ce30d4554853f9c0a8d2080ba","name":"f7e5224cc5ea4391b04ce516ebc16d2b"},{"type":"Edge","source_node_id":"a9730b63e19b433f9ec806bb8a0a7bb0","target_node_id":"166f2fc1d1b64e15939a170b21590715","id":"cfcce44bc6044a7a8c8e0eb20cac2553"},{"type":"Edge","source_node_id":"a360f567ea9e4e30bcc16b67a5af1843","target_node_id":"8ce2db0ea13247668a77abdfc7654421","id":"f5111ef427f140b589facacd41cac715"},{"type":"Edge","source_node_id":"8ce2db0ea13247668a77abdfc7654421","target_node_id":"166f2fc1d1b64e15939a170b21590715","id":"be15149aa21a492b893a0608d1c0bcf8"},{"type":"Edge","source_node_id":"9c1fc546d561428ba52a7afa341bb6b6","target_node_id":"fbcb9a2c464a4aaab032b5ba63f4aef2","id":"6464e6e82dd24c7db1d994736b22f704"},{"type":"Edge","source_node_id":"fbcb9a2c464a4aaab032b5ba63f4aef2","target_node_id":"47f1bad1b7f74e37ad89d60fe55e1260","id":"8ba97e8b2e47463e9e373d28f1a196ee"}],"id":"primary"}],"script_variables":[{"type":"VariableDto","type":"String","name":"pwd_change_processes","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"da212774a29d44babebdcf6aa4c93491","formatType":"text","secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"pwd_change_selected_process_id","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"a431c46679234693958a10b8e417ec57","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"16011bc5a80849b7b1ff1a41fa77755a","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","type":"Choice","choices":[],"id":"73e7479ef1964a26a50c0bba62cc67de","name":"change_password_process_choice","formatType":"text","secure":false,"sensitive":false,"list":false,"table":""},{"type":"VariableDto","type":"String","name":"change_result","list":false,"id":"07143b4e7bdf4b808384f9bb5cd64162","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"request_id","list":false,"id":"3efa4238f1a24c988c79b0df4e785060","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"change_error_message","list":false,"id":"3834ccb4b7cc46258b1b13a3bc8c54de","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"success","list":false,"id":"ecf4769624e14c7f8f598b0c7df75b06","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"request_id1","list":false,"id":"cd835d252338420781e749a8d0937732","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false},{"type":"VariableDto","type":"String","name":"error_message","list":false,"id":"ddc1923e59cb4a39a4d3e1ce747c0df0","formatType":"text","metadata":{"libraryMappingType":"output"},"secure":false,"sensitive":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"dc2fa61c1b3611103ddb639bbc4bcbb6","domain":"global","topic_type":"STANDARD","channels":[],"id":"35aae4171b8421103ddb639bbc4bcb82","name":"Change Password","key_phrases":["Change Password","Password","Change","Change Password","reset password","reset","forgot password","forgot"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>35aae4171b8421103ddb639bbc4bcb82</design_topic_id>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e79ef03fde5b45b39c9d44d9e7ce9bdb": {
+          "id": "e79ef03fde5b45b39c9d44d9e7ce9bdb",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "166f2fc1d1b64e15939a170b21590715": {
+          "id": "166f2fc1d1b64e15939a170b21590715",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "1744c6678e5944e4a75c6a24b5b8e482": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Change Password Process Choice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Which password would you like to change?"
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "mode": "query",
+            "value": ""
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "73e7479ef1964a26a50c0bba62cc67de",
+          "id": "1744c6678e5944e4a75c6a24b5b8e482",
+          "mode": "external",
+          "script": "(function execute() {\n    // Populate change password processes for logged in user\n    return JSON.parse(vaVars.pwd_change_processes);  \n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "(function execute() {\n     return '';\n})()\n",
+            "mode": "script"
+          },
+          "condition": {
+            "value": "(function execute() {\n    // Populate change password processes for logged in user\n    return JSON.parse(vaVars.pwd_change_processes);  \n})()\n",
+            "mode": "external_script"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
+        },
+        "47f1bad1b7f74e37ad89d60fe55e1260": {
+          "id": "47f1bad1b7f74e37ad89d60fe55e1260",
+          "stepType": "Decision",
+          "name": "Check Change Password Action Result"
+        },
+        "a360f567ea9e4e30bcc16b67a5af1843": {
+          "id": "a360f567ea9e4e30bcc16b67a5af1843",
+          "stepType": "TextOutput",
+          "name": "Show Change Password Success Message",
+          "value": [
+            {
+              "value": "(function execute() {\n    return vaVars.pwd_change_success_message;\n})()",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "9c1fc546d561428ba52a7afa341bb6b6": {
+          "id": "9c1fc546d561428ba52a7afa341bb6b6",
+          "stepType": "TextOutput",
+          "name": "Show Password Rule Hint",
+          "value": [
+            {
+              "value": "(function execute() {\n    /* Populate password rule hint.\n    */\n    var ruleHint = new global.PasswordResetScopedUtil().getPasswordRuleHint(vaVars.pwd_change_selected_process_id.toString());\n    return gs.getMessage(\"Make sure your password meets these requirements:\\n{0}\", ruleHint);\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "405bf4d5e96b4b208807b95d9764cee7": {
+          "id": "405bf4d5e96b4b208807b95d9764cee7",
+          "name": "Populate Change Password Process",
+          "script": "(function execute() {\n    /* Populate change password processes for logged in user\n    */ \n    var options = [];\n    var passwordResetScopedUtilObj = new global.PasswordResetScopedUtil();\n    var processIds = passwordResetScopedUtilObj.getChangePasswordProcessIds(gs.getUserID());\n    for (var i = 0; i &lt; processIds.length; i++) {\n        var processId = processIds[i];\n        var process = getProcessDetails(processId);\n        if (process != undefined) {\n            options.push(process);\n        }\n    }\n    vaVars.pwd_change_processes = JSON.stringify(options);\n\n    function getProcessDetails(processId) {\n        var gr = new GlideRecord('pwd_process');\n        gr.get(processId)\n        processDetails = {\n                'value': gr.getUniqueValue(),\n                'label': gr.getDisplayValue('label')  == \"\" || gr.getDisplayValue('label') == null\n                ?  gr.getValue('name') : gr.getDisplayValue('label')\n        }\n        return processDetails;\n    }\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "script",
+            "value": "(function execute() {\n    return true;\n})()\n"
+          }
+        },
+        "3bac6185b0594c178b9d014ec610167b": {
+          "id": "3bac6185b0594c178b9d014ec610167b",
+          "stepType": "Decision",
+          "name": "Check Change Password Process Count"
+        },
+        "988b2a3dab154a68910354dfc75d35ff": {
+          "id": "988b2a3dab154a68910354dfc75d35ff",
+          "stepType": "TextOutput",
+          "name": "Show Default Process Selection",
+          "value": [
+            {
+              "value": "(function execute() {\n    /* If Single change password process is configured, initialize default selection.\n    */\n    var process = JSON.parse(vaVars.pwd_change_processes);\n    vaVars.pwd_change_selected_process_id = process[0].value;\n    return gs.getMessage(\"OK, you're changing the password for  {0}\", process[0].label);\n})()\n",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "8c2ea93c06d642e38d32d138c152fd0f": {
+          "id": "8c2ea93c06d642e38d32d138c152fd0f",
+          "name": "Set User Selected Process ",
+          "script": "(function execute() {\n    /* Initialize the chage password process selection\n    */\n    vaVars.pwd_change_selected_process_id = vaInputs.change_password_process_choice.toString();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e3692facb58746f5a1bd6a66efd3662b": {
+          "id": "e3692facb58746f5a1bd6a66efd3662b",
+          "stepType": "TextOutput",
+          "name": "Show Change Password Failed Message",
+          "value": [
+            {
+              "value": "(function execute() {\n    return vaVars.pwd_change_failure_message;\n})()",
+              "mode": "script"
+            }
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "secure": false
+        },
+        "cc0afff25ca54a12b4624164ef30d766": {
+          "id": "cc0afff25ca54a12b4624164ef30d766",
+          "stepType": "Decision",
+          "name": "Does Channel Support Password Field"
+        },
+        "07a88ff156f245bb86ed2377d06faa00": {
+          "id": "07a88ff156f245bb86ed2377d06faa00",
+          "stepType": "LinkOutput",
+          "name": "Change Password Link",
+          "url": {
+            "value": "(function execute() {\n    return gs.getProperty('glide.servlet.uri') + 'nav_to.do?uri=$pwd_change.do';\n})()\n",
+            "mode": "script"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click here to change password."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I'm not able to change your password. "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "a9730b63e19b433f9ec806bb8a0a7bb0": {
+          "id": "a9730b63e19b433f9ec806bb8a0a7bb0",
+          "stepType": "Component",
+          "name": "No Deflection",
+          "fields": [],
+          "reusableTopicId": "7fb4ca055303201033cdddeeff7b12b3",
+          "reusableTopicChoice": "Deflection",
+          "sourceType": "TOPIC_BLOCK",
+          "loading": false,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "inputs": {
+            "deflection_configuration": {
+              "value": "5292005253213010000dddeeff7b126c",
+              "mode": "string",
+              "type": "Reference",
+              "table": "ssa_deflection_configuration"
+            },
+            "deflection_pattern": {
+              "value": "9ee3409253213010000dddeeff7b123b",
+              "mode": "string",
+              "type": "Reference",
+              "table": "ssa_deflection_pattern"
+            },
+            "activity_table": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "activity_ids": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [],
+          "outdatedNote": false,
+          "variableIds": []
+        },
+        "8ce2db0ea13247668a77abdfc7654421": {
+          "id": "8ce2db0ea13247668a77abdfc7654421",
+          "stepType": "Component",
+          "name": "Deflection: Password Change Successful",
+          "fields": [],
+          "reusableTopicId": "7fb4ca055303201033cdddeeff7b12b3",
+          "reusableTopicChoice": "Deflection",
+          "sourceType": "TOPIC_BLOCK",
+          "loading": false,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "inputs": {
+            "deflection_configuration": {
+              "value": "5292005253213010000dddeeff7b126c",
+              "mode": "string",
+              "type": "Reference",
+              "table": "ssa_deflection_configuration"
+            },
+            "deflection_pattern": {
+              "value": "0273885253213010000dddeeff7b1210",
+              "mode": "string",
+              "type": "Reference",
+              "table": "ssa_deflection_pattern"
+            },
+            "activity_table": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            },
+            "activity_ids": {
+              "value": "",
+              "mode": "simple",
+              "type": "String"
+            }
+          },
+          "outputs": [],
+          "outdatedNote": false,
+          "variableIds": []
+        },
+        "fbcb9a2c464a4aaab032b5ba63f4aef2": {
+          "id": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+          "stepType": "CustomControl",
+          "name": "Change Password Component v2",
+          "fields": [],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "reusableTopicChoice": "Change Password Component v2",
+          "reusableTopicId": "d05b64571b8421103ddb639bbc4bcb49",
+          "inputs": {
+            "process": {
+              "value": "(function execute() {\n\n    return vaVars.pwd_change_selected_process_id;\n})()\n",
+              "mode": "script",
+              "type": "Reference",
+              "table": "pwd_process"
+            },
+            "username": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.user_name}}",
+                        "displayValue": "Input Variables➛User➛User ID"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            }
+          },
+          "outputs": [
+            {
+              "id": "ecf4769624e14c7f8f598b0c7df75b06",
+              "value": "success",
+              "mapping": "success",
+              "preventDisable": false
+            },
+            {
+              "id": "cd835d252338420781e749a8d0937732",
+              "value": "request_id",
+              "mapping": "request_id1",
+              "preventDisable": false
+            },
+            {
+              "id": "ddc1923e59cb4a39a4d3e1ce747c0df0",
+              "value": "error_message",
+              "mapping": "error_message",
+              "preventDisable": false
+            }
+          ],
+          "variableIds": [
+            "ecf4769624e14c7f8f598b0c7df75b06",
+            "cd835d252338420781e749a8d0937732",
+            "ddc1923e59cb4a39a4d3e1ce747c0df0"
+          ],
+          "outdatedNote": false,
+          "loading": false
+        }
+      },
+      "edges": [
+        {
+          "id": "85cafb16324e46f2a68390e695e06d51",
+          "edgeType": "Edge",
+          "source": "8c2ea93c06d642e38d32d138c152fd0f",
+          "target": "9c1fc546d561428ba52a7afa341bb6b6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f626488f0dd34aae9bca78305bfab3d5",
+          "edgeType": "Edge",
+          "source": "e3692facb58746f5a1bd6a66efd3662b",
+          "target": "a9730b63e19b433f9ec806bb8a0a7bb0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5f67e7b50035405eb52bf503defecc55",
+          "edgeType": "Branch",
+          "source": "47f1bad1b7f74e37ad89d60fe55e1260",
+          "target": "e3692facb58746f5a1bd6a66efd3662b",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if(vaInputs.change_result == 'failure') {\n        vaVars.pwd_change_failure_message = vaInputs.change_error_message;\n        return true;\n    }\n    else if(vaInputs.change_result == 'block') {\n        vaVars.pwd_change_failure_message = gs.getMessage(\"I wasn't able to change your password for you because you've either already changed it recently or reached the limit on update attempts.\");\n        return true;\n    }\n    return false;\n})()"
+          },
+          "label": "Change Password Failed Or User Is Blocked"
+        },
+        {
+          "id": "f9b91cb49c59489eb3aab20f09026cb1",
+          "edgeType": "Edge",
+          "source": "07a88ff156f245bb86ed2377d06faa00",
+          "target": "8ce2db0ea13247668a77abdfc7654421",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d25569effbd741109aff6efd7aecaa48",
+          "edgeType": "Branch",
+          "source": "cc0afff25ca54a12b4624164ef30d766",
+          "target": "07a88ff156f245bb86ed2377d06faa00",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    var PROP_VA_PASSWORD_SUPPORTED_CHANNELS = \"sn_pwdreset_va.supported_channels\";\n    var SPLIT_CHAR = \",\";\n    return gs.getProperty(PROP_VA_PASSWORD_SUPPORTED_CHANNELS).split(SPLIT_CHAR).indexOf(vaContext.deviceType) &lt; 0;\n})()\n"
+          },
+          "label": "Channel Does Not Support Password Field"
+        },
+        {
+          "id": "23741484189746da99bf54189cdeecbc",
+          "edgeType": "Branch",
+          "source": "47f1bad1b7f74e37ad89d60fe55e1260",
+          "target": "a360f567ea9e4e30bcc16b67a5af1843",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    if(vaInputs.change_result == 'success') {\n        vaVars.pwd_change_success_message = gs.getMessage(\"Great! You have a new password! Please log in again using your new password.\");\n        return true;\n    }\n    else if(vaInputs.change_result == 'pending') {\n        vaVars.pwd_change_success_message = gs.getMessage(\"Your request for a password change has been initiated. After the request is completed, you will get a confirmation.\");\n        return true;\n    }\n    return false;\n})()"
+          },
+          "label": "Change Password Success Or Pending"
+        },
+        {
+          "id": "2b69b4c53cb94420aaa7e0f81eb184c9",
+          "edgeType": "Edge",
+          "source": "405bf4d5e96b4b208807b95d9764cee7",
+          "target": "3bac6185b0594c178b9d014ec610167b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3caed5b4514445b282798d59cf1866b7",
+          "edgeType": "Branch",
+          "source": "3bac6185b0594c178b9d014ec610167b",
+          "target": "1744c6678e5944e4a75c6a24b5b8e482",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    /* If more than one change password processes are configured for user\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length &gt; 1;\n})()\n"
+          },
+          "label": "Multi Process"
+        },
+        {
+          "id": "ca6f7b4c3c2f4faabb37ed993569ada3",
+          "edgeType": "Branch",
+          "source": "3bac6185b0594c178b9d014ec610167b",
+          "target": "07a88ff156f245bb86ed2377d06faa00",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    /* If change password process is not configured for user.\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length == 0;\n})()\n"
+          },
+          "label": "Process Not Configured"
+        },
+        {
+          "id": "734286fa0d734c93904ba70c8d798f5e",
+          "edgeType": "Branch",
+          "source": "3bac6185b0594c178b9d014ec610167b",
+          "target": "988b2a3dab154a68910354dfc75d35ff",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    /* Check number of change password process entitled for user, if single process exists,\n     select it.\n    */\n    var processes = JSON.parse(vaVars.pwd_change_processes);\n    return processes.length == 1;\n})()\n"
+          },
+          "label": "Single Process"
+        },
+        {
+          "id": "3f978736ac3f453bbe35e76c8e69c249",
+          "edgeType": "Edge",
+          "source": "1744c6678e5944e4a75c6a24b5b8e482",
+          "target": "8c2ea93c06d642e38d32d138c152fd0f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d88ac05e56484d199d3d6e8fd83fab62",
+          "edgeType": "Edge",
+          "source": "988b2a3dab154a68910354dfc75d35ff",
+          "target": "9c1fc546d561428ba52a7afa341bb6b6",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "115de825a32f4b18a073884ada025c2c",
+          "edgeType": "Edge",
+          "source": "e79ef03fde5b45b39c9d44d9e7ce9bdb",
+          "target": "cc0afff25ca54a12b4624164ef30d766",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "266c6e3ce30d4554853f9c0a8d2080ba",
+          "edgeType": "Branch",
+          "source": "cc0afff25ca54a12b4624164ef30d766",
+          "target": "405bf4d5e96b4b208807b95d9764cee7",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    var PROP_VA_PASSWORD_SUPPORTED_CHANNELS = \"sn_pwdreset_va.supported_channels\";\n    var SPLIT_CHAR = \",\";\n    return gs.getProperty(PROP_VA_PASSWORD_SUPPORTED_CHANNELS).split(SPLIT_CHAR).indexOf(vaContext.deviceType) &gt; -1;\n})()\n"
+          },
+          "label": "Channel Supports Password Field"
+        },
+        {
+          "id": "cfcce44bc6044a7a8c8e0eb20cac2553",
+          "edgeType": "Edge",
+          "source": "a9730b63e19b433f9ec806bb8a0a7bb0",
+          "target": "166f2fc1d1b64e15939a170b21590715",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f5111ef427f140b589facacd41cac715",
+          "edgeType": "Edge",
+          "source": "a360f567ea9e4e30bcc16b67a5af1843",
+          "target": "8ce2db0ea13247668a77abdfc7654421",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "be15149aa21a492b893a0608d1c0bcf8",
+          "edgeType": "Edge",
+          "source": "8ce2db0ea13247668a77abdfc7654421",
+          "target": "166f2fc1d1b64e15939a170b21590715",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6464e6e82dd24c7db1d994736b22f704",
+          "edgeType": "Edge",
+          "source": "9c1fc546d561428ba52a7afa341bb6b6",
+          "target": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8ba97e8b2e47463e9e373d28f1a196ee",
+          "edgeType": "Edge",
+          "source": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+          "target": "47f1bad1b7f74e37ad89d60fe55e1260",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "16011bc5a80849b7b1ff1a41fa77755a": {
+      "category": "vaInputs",
+      "id": "16011bc5a80849b7b1ff1a41fa77755a",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "73e7479ef1964a26a50c0bba62cc67de": {
+      "id": "73e7479ef1964a26a50c0bba62cc67de",
+      "name": "change_password_process_choice",
+      "label": "Change Password Process Choice",
+      "varType": "reference",
+      "table": "",
+      "category": "vaInputs",
+      "nodeId": "1744c6678e5944e4a75c6a24b5b8e482",
+      "isHidden": false
+    },
+    "da212774a29d44babebdcf6aa4c93491": {
+      "id": "da212774a29d44babebdcf6aa4c93491",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "pwd_change_processes",
+      "label": "pwd_change_processes",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "a431c46679234693958a10b8e417ec57": {
+      "id": "a431c46679234693958a10b8e417ec57",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "pwd_change_selected_process_id",
+      "label": "pwd_change_selected_process_id",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "07143b4e7bdf4b808384f9bb5cd64162": {
+      "id": "07143b4e7bdf4b808384f9bb5cd64162",
+      "name": "change_result",
+      "label": "Change_result",
+      "defaultValue": "success",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+      "isHidden": false
+    },
+    "3efa4238f1a24c988c79b0df4e785060": {
+      "id": "3efa4238f1a24c988c79b0df4e785060",
+      "name": "request_id",
+      "label": "Request_id",
+      "defaultValue": "request_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+      "isHidden": false
+    },
+    "3834ccb4b7cc46258b1b13a3bc8c54de": {
+      "id": "3834ccb4b7cc46258b1b13a3bc8c54de",
+      "name": "change_error_message",
+      "label": "Change_error_message",
+      "defaultValue": "error_message",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false,
+      "nodeId": "fbcb9a2c464a4aaab032b5ba63f4aef2",
+      "isHidden": false
+    },
+    "ecf4769624e14c7f8f598b0c7df75b06": {
+      "id": "ecf4769624e14c7f8f598b0c7df75b06",
+      "name": "success",
+      "label": "Success",
+      "defaultValue": "success",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "cd835d252338420781e749a8d0937732": {
+      "id": "cd835d252338420781e749a8d0937732",
+      "name": "request_id1",
+      "label": "Request_id1",
+      "defaultValue": "request_id",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    },
+    "ddc1923e59cb4a39a4d3e1ce747c0df0": {
+      "id": "ddc1923e59cb4a39a4d3e1ce747c0df0",
+      "name": "error_message",
+      "label": "Error_message",
+      "defaultValue": "error_message",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "preventDisable": false
+    }
+  }
+}</graph>
+        <name>Change Password</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 17:40:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cc8ce4971b8421103ddb639bbc4bcb72</sys_id>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_cb_design_topic_cc8ce4971b8421103ddb639bbc4bcb72</sys_update_name>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
