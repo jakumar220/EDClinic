@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>javascript:gs.getUserID().x_926609_edclinic_u_bed_location</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -19,7 +19,7 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text>A5</example_text>
-        <field>active</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text>Please choose bed number or other location of call. (for example 'A5'). </help_text>
@@ -36,7 +36,7 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>call_location</name>
@@ -75,7 +75,7 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-12-23 15:33:20</sys_created_on>
+        <sys_created_on>2022-12-27 14:35:32</sys_created_on>
         <sys_id>9dcda4401b0ce1103ddb639bbc4bcb0c</sys_id>
         <sys_name>Provide Location</sys_name>
         <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
