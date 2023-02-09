@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>location</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>80</order>
+        <record_id_field/>
+        <screen display_value="Details">9d3daff31b3bd1103ddb639bbc4bcb35</screen>
+        <screen_data_item_table>x_926609_edclinic_call</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:43:16</sys_created_on>
+        <sys_id>d13daff31b3bd1103ddb639bbc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_screen_field_d13daff31b3bd1103ddb639bbc4bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:43:16</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_sg_screen_field_d13daff31b3bd1103ddb639bbc4bcb7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>location</data_item_field_name><field_name/><hidden>false</hidden><order>80</order><record_id_field/><screen display_value="Details">9d3daff31b3bd1103ddb639bbc4bcb35</screen><screen_data_item_table>x_926609_edclinic_call</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 10:43:16</sys_created_on><sys_id>d13daff31b3bd1103ddb639bbc4bcb7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>location</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_sg_screen_field_d13daff31b3bd1103ddb639bbc4bcb7a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 10:43:16</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>2036118986</payload_hash>
+        <record_name>location</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:43:28</sys_created_on>
+        <sys_id>1c4d63371b3bd1103ddb639bbc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853e94ac2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:43:28</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>944d6337d73bd110f78a327adf0cd757</update_guid>
+        <update_guid_history>944d6337d73bd110f78a327adf0cd757:2036118986</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-08 16:43:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>3752acdbf13b4ca08d1c22c588fc7a04</sys_id>
+        <sys_metadata>d13daff31b3bd1103ddb639bbc4bcb7a</sys_metadata>
+        <sys_name>location</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_d13daff31b3bd1103ddb639bbc4bcb7a</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_d13daff31b3bd1103ddb639bbc4bcb7a">1c4d63371b3bd1103ddb639bbc4bcb57</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

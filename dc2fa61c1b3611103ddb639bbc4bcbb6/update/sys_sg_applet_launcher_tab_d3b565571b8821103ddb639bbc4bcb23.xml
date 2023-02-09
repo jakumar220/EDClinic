@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applet_launcher display_value="Home">57b565571b8821103ddb639bbc4bcb21</applet_launcher>
+        <applet_launcher/>
         <icon display_value="Home">57b565571b8821103ddb639bbc4bcb20</icon>
         <label>Home</label>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Software Request">ddc3ec5d1b76d1103ddb639bbc4bcba8</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 17:55:57</sys_created_on>
+        <sys_id>7b76d1e81bd065103ddb639bbc4bcbf2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Can We Help You?.Software Request</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sc_cat_item_category_7b76d1e81bd065103ddb639bbc4bcbf2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-06 17:56:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sc_cat_item_category_7b76d1e81bd065103ddb639bbc4bcbf2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Software Request">ddc3ec5d1b76d1103ddb639bbc4bcba8</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-06 17:55:57</sys_created_on><sys_id>7b76d1e81bd065103ddb639bbc4bcbf2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Can We Help You?.Software Request</sys_name><sys_package/><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sc_cat_item_category_7b76d1e81bd065103ddb639bbc4bcbf2</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-01-06 17:56:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-915564164</payload_hash>
+        <record_name>Can We Help You?.Software Request</record_name>
+        <reverted_from/>
+        <source>8f8615e81bd065103ddb639bbc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-06 17:56:11</sys_created_on>
+        <sys_id>4b8655e81bd065103ddb639bbc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1858839dbcd0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-06 17:56:11</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>038655e87bd06510b6dc2ab14c2f821d</update_guid>
+        <update_guid_history>038655e87bd06510b6dc2ab14c2f821d:-915564164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Software Request">3678d96c1bd065103ddb639bbc4bcba8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 18:04:37</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>777f0b17246240e49fe17020870be0e4</sys_id>
+        <sys_metadata>7b76d1e81bd065103ddb639bbc4bcbf2</sys_metadata>
+        <sys_name>Can We Help You?.Software Request</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_7b76d1e81bd065103ddb639bbc4bcbf2</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_7b76d1e81bd065103ddb639bbc4bcbf2">4b8655e81bd065103ddb639bbc4bcb1d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

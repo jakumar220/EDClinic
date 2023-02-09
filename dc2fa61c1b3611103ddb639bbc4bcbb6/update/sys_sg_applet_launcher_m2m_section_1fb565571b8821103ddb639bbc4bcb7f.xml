@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="Home">57b565571b8821103ddb639bbc4bcb21</applet_launcher>
+        <applet_launcher/>
         <order>2147483647</order>
-        <section display_value="Quick Links">93b565571b8821103ddb639bbc4bcb27</section>
+        <section/>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
         <sys_created_by>manifah.masood</sys_created_by>
         <sys_created_on>2023-01-02 21:50:09</sys_created_on>

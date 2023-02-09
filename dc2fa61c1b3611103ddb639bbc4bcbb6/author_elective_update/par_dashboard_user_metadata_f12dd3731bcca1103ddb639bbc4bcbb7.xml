@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2023-01-04 19:48:50</created_on>
+        <dashboard display_value="Performance Center">292dd3731bcca1103ddb639bbc4bcbb4</dashboard>
+        <last_updated_on>2023-01-04 19:48:50</last_updated_on>
+        <requested_by_user/>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:48:50</sys_created_on>
+        <sys_id>f12dd3731bcca1103ddb639bbc4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_f12dd3731bcca1103ddb639bbc4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-04 19:48:50</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>par_dashboard_user_metadata_f12dd3731bcca1103ddb639bbc4bcbb7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2023-01-04 19:48:50</created_on><dashboard display_value="Performance Center">292dd3731bcca1103ddb639bbc4bcbb4</dashboard><last_updated_on>2023-01-04 19:48:50</last_updated_on><requested_by_user/><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-04 19:48:50</sys_created_on><sys_id>f12dd3731bcca1103ddb639bbc4bcbb7</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>par_dashboard_user_metadata_f12dd3731bcca1103ddb639bbc4bcbb7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-04 19:48:50</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>311645804</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:48:50</sys_created_on>
+        <sys_id>f12dd3731bcca1103ddb639bbc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1857e5445640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-04 19:48:50</sys_updated_on>
+        <type>PAR Dashboard User Metadata</type>
+        <update_guid>3d2dd3732acca110b38f3a6dcf2747b8</update_guid>
+        <update_guid_history>3d2dd3732acca110b38f3a6dcf2747b8:311645804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">79be53f31bcca1103ddb639bbc4bcb83</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:55:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>c18461d045b146298bb8461c69bcfa39</sys_id>
+        <sys_metadata>f12dd3731bcca1103ddb639bbc4bcbb7</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_f12dd3731bcca1103ddb639bbc4bcbb7</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_f12dd3731bcca1103ddb639bbc4bcbb7">f12dd3731bcca1103ddb639bbc4bcbb9</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
