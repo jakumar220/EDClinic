@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="e500765c1b3611103ddb639bbc4bcb13" extends="task" label="Call" max_length="40" name="x_926609_edclinic_call" text_index="true" type="collection">
+        <element label="Concerning Patient" mandatory="true" max_length="32" name="concerning_patient" reference="sys_user" reference_qual="department=21b7ec781b9711103ddb639bbc4bcb18^EQ" reference_qual_condition="department=21b7ec781b9711103ddb639bbc4bcb18^EQ" type="reference"/>
+        <element label="Item" max_length="32" name="item" reference="x_926609_edclinic_medical_devices" reference_qual="u_in_callISEMPTY^install_status=1^EQ" reference_qual_condition="u_in_callISEMPTY^install_status=1^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="normal" label="Priority" max_length="40" name="u_choice_priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Serious" sequence="1" value="serious"/>
+                <element inactive_on_update="false" label="Normal" sequence="2" value="normal"/>
+            </choice>
+        </element>
+    </element>
+</database>

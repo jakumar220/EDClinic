@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cs_topic_id display_value="Request CI EDClinic">53a3b0df1b8421103ddb639bbc4bcb58</calling_cs_topic_id>
+        <library_cs_topic_id display_value="End state card for Catalog Request">0b01391550d30110fa9b861f7d83d7f6</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"End state card for Catalog Request","library_topic_id":"0b01391550d30110fa9b861f7d83d7f6","parameter-mappings":[{"parameter-name":"record_id","value":{"type":"String","mode":"string","value":"{{vaVars.record_id}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}},{"parameter-name":"record_table","value":{"type":"String","mode":"string","value":"{{vaVars.record_table}}"},"metadata":{"type":"String","list":false,"items":[],"use_items":false}}],"return-value-mappings":[],"id":"328bc3fa4b7c4033a89280571c2afe68","name":"End state card","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}</library_usage>
+        <node_id>328bc3fa4b7c4033a89280571c2afe68</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-02 18:11:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e3a3b4131bc421103ddb639bbc4bcb0c</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_e3a3b4131bc421103ddb639bbc4bcb0c</sys_update_name>
+    </sys_cs_topic_library_usage>
+</record_update>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">21b5e048b0c8e1105d74875866a2c1d8</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">a5b5e04810c8e11097727b6824a76dd7</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:16</sys_created_on>
+        <sys_id>edb5e04846c8e110e48607a2d99fa2d6</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_edb5e04846c8e110e48607a2d99fa2d6</sys_update_name>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

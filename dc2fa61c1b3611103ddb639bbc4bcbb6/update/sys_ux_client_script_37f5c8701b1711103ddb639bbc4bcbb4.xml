@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
+        <macroponent display_value="allcalls">63f544701b1711103ddb639bbc4bcb3f</macroponent>
+        <name>listSetPrefState</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const listDividerPosition = event.payload.dividerPosition;
+        const listPreference = api.state.listRatioPreference;
+        
+        api.setState('listDividerPosition', listDividerPosition);
+
+        api.data.setListPreference.execute({
+            'name': listPreference,
+            'value': listDividerPosition
+        });    
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 13:39:56</sys_created_on>
+        <sys_id>37f5c8701b1711103ddb639bbc4bcbb4</sys_id>
+        <sys_name>listSetPrefState</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_client_script_37f5c8701b1711103ddb639bbc4bcbb4</sys_update_name>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

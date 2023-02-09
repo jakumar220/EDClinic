@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">a6a0419fc2c4211085ba05f4fa841115</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">a2a0419f01c421105c3ca7b858623710</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-02 19:08:12</sys_created_on>
+        <sys_id>26a0419fb1c4211069a0d3deae7b0510</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_26a0419fb1c4211069a0d3deae7b0510</sys_update_name>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

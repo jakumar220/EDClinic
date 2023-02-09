@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assigned_to</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 20:44:53</sys_created_on>
+        <sys_id>84d6b1041b0025103ddb639bbc4bcb71</sys_id>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_84d6b1041b0025103ddb639bbc4bcb71</sys_update_name>
+        <table>x_926609_edclinic_call</table>
+        <ui_policy display_value="Assigned to mandatory to close">e1a6fdc01b0025103ddb639bbc4bcb63</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

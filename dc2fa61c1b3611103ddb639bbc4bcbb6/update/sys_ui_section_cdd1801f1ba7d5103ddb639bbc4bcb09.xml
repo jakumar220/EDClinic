@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="cdd1801f1ba7d5103ddb639bbc4bcb09" sys_domain="global" table="sys_user" version="3" view="edclinicworkspaceview">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>61d1801f1ba7d5103ddb639bbc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a9d1801f1ba7d5103ddb639bbc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>add1801f1ba7d5103ddb639bbc4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a1d1801f1ba7d5103ddb639bbc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vip</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a5d1801f1ba7d5103ddb639bbc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_926609_edclinic_u_glide_list_5</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a9d1801f1ba7d5103ddb639bbc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_926609_edclinic_u_bed_location</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>add1801f1ba7d5103ddb639bbc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a1d1801f1ba7d5103ddb639bbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_password</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a5d1801f1ba7d5103ddb639bbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mobile_phone</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a9d1801f1ba7d5103ddb639bbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notification</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>add1801f1ba7d5103ddb639bbc4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>password_needs_reset</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a1d1801f1ba7d5103ddb639bbc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a5d1801f1ba7d5103ddb639bbc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_926609_edclinic_u_internal_external</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:16</sys_created_on>
+            <sys_id>a9d1801f1ba7d5103ddb639bbc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user" sys_domain="global" view="f0d1801f1ba7d5103ddb639bbc4bcb04">cdd1801f1ba7d5103ddb639bbc4bcb09</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-12-08 18:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-08 18:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cdd1801f1ba7d5103ddb639bbc4bcb09</sys_id>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+            <sys_update_name>sys_ui_section_cdd1801f1ba7d5103ddb639bbc4bcb09</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="edclinicworkspaceview" name="edclinicworkspaceview">f0d1801f1ba7d5103ddb639bbc4bcb04</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

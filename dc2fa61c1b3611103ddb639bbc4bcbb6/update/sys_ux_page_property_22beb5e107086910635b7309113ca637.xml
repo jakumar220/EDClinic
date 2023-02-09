@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="EDClinic Technical Workspace">6ebeb5e19e086910c8f486c82da81326</page>
+        <required_translations>[ {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Medical Devices",
+  "comment" : ""
+}, {
+  "message" : "New Requested Item",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 13:09:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>22beb5e107086910635b7309113ca637</sys_id>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_page_property_22beb5e107086910635b7309113ca637</sys_update_name>
+        <type>json</type>
+        <unique_name>x_926609_edclinic.6ebeb5e19e086910c8f486c82da81326.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Requested Item"},"routeInfo":{"route":"record","fields":{"table":"sc_req_item","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"sc_req_item","canCreate":true}}},{"label":{"translatable":true,"message":"New Medical Devices"},"routeInfo":{"route":"record","fields":{"table":"x_926609_edclinic_medical_devices","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_926609_edclinic_medical_devices","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=22beb5e107086910635b7309113ca637"/>
+</record_update>

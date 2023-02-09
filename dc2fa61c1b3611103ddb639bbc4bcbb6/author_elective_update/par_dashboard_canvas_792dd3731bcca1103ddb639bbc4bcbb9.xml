@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
+    <par_dashboard_canvas action="DELETE">
+        <dashboard display_value="Performance Center">292dd3731bcca1103ddb639bbc4bcbb4</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:48:50</sys_created_on>
+        <sys_id>792dd3731bcca1103ddb639bbc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>par_dashboard_canvas_792dd3731bcca1103ddb639bbc4bcbb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-04 19:48:50</sys_updated_on>
+    </par_dashboard_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>par_dashboard_canvas_792dd3731bcca1103ddb639bbc4bcbb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas"><par_dashboard_canvas action="INSERT_OR_UPDATE"><dashboard display_value="Performance Center">292dd3731bcca1103ddb639bbc4bcbb4</dashboard><dashboard_tab/><layout>[]</layout><sys_class_name>par_dashboard_canvas</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-04 19:48:50</sys_created_on><sys_id>792dd3731bcca1103ddb639bbc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>par_dashboard_canvas_792dd3731bcca1103ddb639bbc4bcbb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-04 19:48:50</sys_updated_on></par_dashboard_canvas></record_update>]]></payload>
+        <payload_hash>1160958359</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:48:50</sys_created_on>
+        <sys_id>f12dd3731bcca1103ddb639bbc4bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1857e5445950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-04 19:48:50</sys_updated_on>
+        <type>PAR Dashboard Page Canvas</type>
+        <update_guid>3d2dd373d6cca1101c032f62405e01ba</update_guid>
+        <update_guid_history>3d2dd373d6cca1101c032f62405e01ba:1160958359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">35be53f31bcca1103ddb639bbc4bcb7e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 19:55:39</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_canvas">par_dashboard_canvas</sys_db_object>
+        <sys_id>b9c102a6a8a1410caab23942952b9210</sys_id>
+        <sys_metadata>792dd3731bcca1103ddb639bbc4bcbb9</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>par_dashboard_canvas_792dd3731bcca1103ddb639bbc4bcbb9</sys_update_name>
+        <sys_update_version display_value="par_dashboard_canvas_792dd3731bcca1103ddb639bbc4bcbb9">f12dd3731bcca1103ddb639bbc4bcbbb</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

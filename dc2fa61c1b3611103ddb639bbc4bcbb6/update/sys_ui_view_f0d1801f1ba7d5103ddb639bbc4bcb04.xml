@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>edclinicworkspaceview</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-08 18:02:13</sys_created_on>
+        <sys_id>f0d1801f1ba7d5103ddb639bbc4bcb04</sys_id>
+        <sys_name>edclinicworkspaceview</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ui_view_f0d1801f1ba7d5103ddb639bbc4bcb04</sys_update_name>
+        <title>edclinicworkspaceview</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

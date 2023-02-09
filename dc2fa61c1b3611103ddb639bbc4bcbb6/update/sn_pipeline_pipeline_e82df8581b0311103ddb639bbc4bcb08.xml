@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline">
+    <sn_pipeline_pipeline action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>EDClinicPipeline</name>
+        <pipeline_type display_value="Application Deployment">268f9c0fb73430100290b9708e11a9de</pipeline_type>
+        <source_environment/>
+        <sys_class_name>sn_pipeline_pipeline</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-04 18:08:30</sys_created_on>
+        <sys_id>e82df8581b0311103ddb639bbc4bcb08</sys_id>
+        <sys_name>EDClinicPipeline</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sn_pipeline_pipeline_e82df8581b0311103ddb639bbc4bcb08</sys_update_name>
+    </sn_pipeline_pipeline>
+</record_update>

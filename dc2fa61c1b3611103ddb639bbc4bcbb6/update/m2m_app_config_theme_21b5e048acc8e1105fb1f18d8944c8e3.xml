@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">29b5e04861c8e110f05eab14e8d5f1e2</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21b5e048acc8e1105fb1f18d8944c8e3</sys_id>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>m2m_app_config_theme_21b5e048acc8e1105fb1f18d8944c8e3</sys_update_name>
+        <theme display_value="Light Theme">a9b5e0488ec8e110e85dcb16e026d0e2</theme>
+        <ux_app_configuration display_value="Patient Centre Portal Config">51b5e0481bc8e1103ddb639bbc4bcba8</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

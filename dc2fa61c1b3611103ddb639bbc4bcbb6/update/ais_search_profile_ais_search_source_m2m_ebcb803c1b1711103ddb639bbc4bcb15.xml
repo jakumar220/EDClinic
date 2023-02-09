@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="EDClinic Nurses Workspace Search Profile">6b5b0438271711104b2b1dceea4fbef7</profile>
+        <search_source display_value="">63cb803c1b1711103ddb639bbc4bcb13</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-18 14:05:18</sys_created_on>
+        <sys_id>ebcb803c1b1711103ddb639bbc4bcb15</sys_id>
+        <sys_name>EDClinic Nurses Workspace Search Profile.</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_ebcb803c1b1711103ddb639bbc4bcb15</sys_update_name>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

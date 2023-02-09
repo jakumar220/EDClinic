@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create A Call">9ab9284c1bc8e1103ddb639bbc4bcb2b</sc_cat_item>
+        <sc_catalog display_value="Patient Catalog">aee9e84c1bc8e1103ddb639bbc4bcb90</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 15:09:39</sys_created_on>
+        <sys_id>1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patient Catalog.Create a call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 22:43:41</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Create A Call">9ab9284c1bc8e1103ddb639bbc4bcb2b</sc_cat_item><sc_catalog display_value="Patient Catalog">aee9e84c1bc8e1103ddb639bbc4bcb90</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 15:09:39</sys_created_on><sys_id>1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patient Catalog.Create a call</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 22:43:41</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>160006957</payload_hash>
+        <record_name>Patient Catalog.Create a call</record_name>
+        <reverted_from/>
+        <source>0e71526f1bc861103ddb639bbc4bcb67</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-03 19:39:41</sys_created_on>
+        <sys_id>8671526f1bc861103ddb639bbc4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185792589b50000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-03 19:39:41</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>8a71526f65c861107214e4e80bcbc76d</update_guid>
+        <update_guid_history>8a71526f65c861107214e4e80bcbc76d:160006957,532aec4c58c8e110ef0ef433c229b77b:-1784238087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Patient Catalog.Create a call">8a71526f1bc861103ddb639bbc4bcb71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-03 19:39:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>12545980fe104f5a8318dcc75a18a3e4</sys_id>
+        <sys_metadata>1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_metadata>
+        <sys_name>Patient Catalog.Create a call</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent display_value="Create A Call">9ab9284c1bc8e1103ddb639bbc4bcb2b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1b2a284c1bc8e1103ddb639bbc4bcb9e">8671526f1bc861103ddb639bbc4bcb6e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

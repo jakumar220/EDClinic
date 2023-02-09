@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Patients Data Item</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="sys_user">department=21b7ec781b9711103ddb639bbc4bcb18<item display_table="cmn_department" display_value="Patient" endquery="false" field="department" goto="false" newquery="false" operator="=" or="false" value="21b7ec781b9711103ddb639bbc4bcb18"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:42:56</sys_created_on>
+        <sys_id>ac2d6bf31b3bd1103ddb639bbc4bcbce</sys_id>
+        <sys_name>Patients Data Item</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_sg_data_item_ac2d6bf31b3bd1103ddb639bbc4bcbce</sys_update_name>
+        <table>sys_user</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac2d6bf31b3bd1103ddb639bbc4bcbce"/>
+</record_update>

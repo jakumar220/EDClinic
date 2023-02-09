@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_settings_x_926609_edclinic</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-12-23 14:50:15</sys_created_on>
+        <sys_id>29b5e04803c8e1102d47b6116cf891de</sys_id>
+        <sys_name>Custom portal settings (x_926609_edclinic)</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ui_view_29b5e04803c8e1102d47b6116cf891de</sys_update_name>
+        <title>Custom portal settings (x_926609_edclinic)</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

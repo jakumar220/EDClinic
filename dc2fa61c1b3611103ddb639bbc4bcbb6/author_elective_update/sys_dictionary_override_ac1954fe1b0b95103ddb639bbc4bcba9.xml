@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>state</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_926609_edclinic_call</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-12 09:56:07</sys_created_on>
+        <sys_id>ac1954fe1b0b95103ddb639bbc4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_dictionary_override_ac1954fe1b0b95103ddb639bbc4bcba9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-12 09:56:07</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_dictionary_override_ac1954fe1b0b95103ddb639bbc4bcba9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>true</display_override><element>state</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_926609_edclinic_call</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-12 09:56:07</sys_created_on><sys_id>ac1954fe1b0b95103ddb639bbc4bcba9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_dictionary_override_ac1954fe1b0b95103ddb639bbc4bcba9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-12 09:56:07</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-1644588751</payload_hash>
+        <record_name>state</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-12 09:56:07</sys_created_on>
+        <sys_id>f63918fe1b0b95103ddb639bbc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1846b4495e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-12 09:56:07</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>763954be91879510f6c14cbdae6a69e5</update_guid>
+        <update_guid_history>763954be91879510f6c14cbdae6a69e5:-1644588751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-12 09:57:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>a0b6eb50af774d9cb67e1b4470b36464</sys_id>
+        <sys_metadata>ac1954fe1b0b95103ddb639bbc4bcba9</sys_metadata>
+        <sys_name>state</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent display_value="">6100765c1b3611103ddb639bbc4bcb21</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_ac1954fe1b0b95103ddb639bbc4bcba9</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_ac1954fe1b0b95103ddb639bbc4bcba9">f63918fe1b0b95103ddb639bbc4bcb56</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

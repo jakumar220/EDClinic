@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="PatientCentre">e1b6a73f1bf7d1103ddb639bbc4bcbb9</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,sysId</fields>
+        <icon/>
+        <name>CallCreator</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>callcreator</route_type>
+        <screen_type display_value="CallCreator">6437e77f1bf7d1103ddb639bbc4bcb27</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:17:03</sys_created_on>
+        <sys_id>19376f7f1bf7d1103ddb639bbc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CallCreator</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_app_route_19376f7f1bf7d1103ddb639bbc4bcb7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:17:03</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=19376f7f1bf7d1103ddb639bbc4bcb7c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</application>
+        <file_path/>
+        <instance_id>fe911ed7db82f70cb847ac44d4961962</instance_id>
+        <instance_name>dev88334</instance_name>
+        <name>sys_ux_app_route_19376f7f1bf7d1103ddb639bbc4bcb7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="PatientCentre">e1b6a73f1bf7d1103ddb639bbc4bcbb9</app_config><description/><extension_point/><fields>table,sysId</fields><icon/><name>CallCreator</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>callcreator</route_type><screen_type display_value="CallCreator">6437e77f1bf7d1103ddb639bbc4bcb27</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-23 10:17:03</sys_created_on><sys_id>19376f7f1bf7d1103ddb639bbc4bcb7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CallCreator</sys_name><sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package><sys_policy/><sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope><sys_update_name>sys_ux_app_route_19376f7f1bf7d1103ddb639bbc4bcb7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-23 10:17:03</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=19376f7f1bf7d1103ddb639bbc4bcb7c"/></record_update>]]></payload>
+        <payload_hash>2112581233</payload_hash>
+        <record_name>CallCreator</record_name>
+        <reverted_from/>
+        <source>d92536901b7611103ddb639bbc4bcb4d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:17:03</sys_created_on>
+        <sys_id>d9376f7f1bf7d1103ddb639bbc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853e7c7a770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-23 10:17:03</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>15376f7fcdf7d110b2e896b20814397e</update_guid>
+        <update_guid_history>15376f7fcdf7d110b2e896b20814397e:2112581233</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 10:30:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>2356f402e73f4b54871bab4f75f7eae1</sys_id>
+        <sys_metadata>19376f7f1bf7d1103ddb639bbc4bcb7c</sys_metadata>
+        <sys_name>CallCreator</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_scope_delete display_value="">bfd98be093574c649c6f839b88dd70a4</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_19376f7f1bf7d1103ddb639bbc4bcb7c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_19376f7f1bf7d1103ddb639bbc4bcb7c">d9376f7f1bf7d1103ddb639bbc4bcb7e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

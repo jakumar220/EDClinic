@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter" audit="true" create_roles="user_admin" db_object_id="808fca20f90211108c8bd16244dfe7ee" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Location" mandatory="true" max_length="40" name="x_926609_edclinic_u_bed_location" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Need of equipment" max_length="1024" name="x_926609_edclinic_u_glide_list_5" reference="x_926609_edclinic_medical_devices" type="glide_list"/>
+        <element label="Internal" max_length="40" name="x_926609_edclinic_u_internal_external" type="boolean"/>
+    </element>
+</database>

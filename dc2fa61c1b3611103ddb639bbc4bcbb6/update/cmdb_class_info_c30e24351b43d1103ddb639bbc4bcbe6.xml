@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmdb_class_info">
+    <cmdb_class_info action="INSERT_OR_UPDATE">
+        <class>x_926609_edclinic_medical_devices</class>
+        <default_model/>
+        <description/>
+        <managed_by_group display_value="Maintenance" name="Maintenance">5c5930541b0311103ddb639bbc4bcbdd</managed_by_group>
+        <principal_class>false</principal_class>
+        <sys_class_name>cmdb_class_info</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 08:53:09</sys_created_on>
+        <sys_id>c30e24351b43d1103ddb639bbc4bcbe6</sys_id>
+        <sys_name>x_926609_edclinic_medical_devices</sys_name>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>cmdb_class_info_c30e24351b43d1103ddb639bbc4bcbe6</sys_update_name>
+    </cmdb_class_info>
+</record_update>

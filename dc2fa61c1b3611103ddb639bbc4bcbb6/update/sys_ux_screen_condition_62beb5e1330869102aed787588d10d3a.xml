@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions_params_mapping/>
+        <is_result_memoizable>false</is_result_memoizable>
+        <screen display_value="Record Information">a2beb5e16e086910e7f8ac3eee1aa138</screen>
+        <screen_condition/>
+        <script><![CDATA[(function showRecordInformationTab(params) {
+    var ribbonUtil = new x_926609_edclinic.workspaceStarterExpUtils();
+    var experienceId = '6ebeb5e19e086910c8f486c82da81326';
+
+    // call the form header utility class with the current table, sys id, and experience id
+    var showSidePanelPage = ribbonUtil.shouldShowSidePanel(params.table, params.sysId, experienceId);
+    return showSidePanelPage;
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 13:09:58</sys_created_on>
+        <sys_id>62beb5e1330869102aed787588d10d3a</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_62beb5e1330869102aed787588d10d3a</sys_update_name>
+    </sys_ux_screen_condition>
+</record_update>

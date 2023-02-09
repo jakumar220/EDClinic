@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">a6a0419fc2c4211085ba05f4fa841115</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-02 19:08:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aea0419fc5c42110e88edcc39217f615</sys_id>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>m2m_app_config_theme_aea0419fc5c42110e88edcc39217f615</sys_update_name>
+        <theme display_value="Light Theme">2aa0419f4ec4211081bb8047a2c0d315</theme>
+        <ux_app_configuration display_value="Patient Centre Config">daa0019f1bc421103ddb639bbc4bcb9c</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

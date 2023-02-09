@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Audience for appEDClinic Technical Workspace">f8cef5e11b0869103ddb639bbc4bcba2</applicability>
+        <list display_value="Unassigned">c1ce39e11b0869103ddb639bbc4bcb2e</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-28 13:10:07</sys_created_on>
+        <sys_id>cdce39e11b0869103ddb639bbc4bcb2f</sys_id>
+        <sys_name/>
+        <sys_package display_value="EDClinic" source="x_926609_edclinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EDClinic">dc2fa61c1b3611103ddb639bbc4bcbb6</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_cdce39e11b0869103ddb639bbc4bcb2f</sys_update_name>
+    </sys_ux_applicability_m2m_list>
+</record_update>
